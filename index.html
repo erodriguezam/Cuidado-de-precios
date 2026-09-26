@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Comparador de precios</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F4F5EE; --surface:#FFFFFF; --ink:#16241C; --muted:#5C6B5F;
+    --mustard:#D8A83A; --green:#2F7A4D; --line:#DBDACB; --hole:#F4F5EE;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#12180F; --surface:#1B241A; --ink:#EDEFE6; --muted:#9AA593;
+      --mustard:#E3B94F; --green:#4FA873; --line:#2C3529; --hole:#12180F;
+    }
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:"Space Grotesk",system-ui,-apple-system,sans-serif;
+    min-height:100vh;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:2.2rem 1.25rem 4rem;}
+  header h1{font-size:1.7rem; font-weight:700; margin:0 0 .3rem; letter-spacing:-0.01em;}
+  header p{color:var(--muted); margin:0 0 1.3rem; max-width:46ch; line-height:1.5;}
+  .status{
+    background:var(--surface); border:1px solid var(--line); border-left:4px solid var(--green);
+    border-radius:6px; padding:.85rem 1rem; margin-bottom:1.6rem;
+    font-size:.85rem; color:var(--muted); line-height:1.5;
+  }
+  .status.error{border-left-color:#C1443C;}
+  .search{margin-bottom:1.8rem;}
+  .search input{
+    width:100%; font-family:inherit; font-size:1.05rem; padding:.9rem 1rem;
+    border:1.5px solid var(--line); border-radius:8px; background:var(--surface); color:var(--ink);
+    outline:none; transition:border-color .15s;
+  }
+  .search input:focus{border-color:var(--green);}
+  .results{display:flex; flex-direction:column;}
+  .product{border-top:1px solid var(--line); padding:1.1rem 0;}
+  .product:last-child{border-bottom:1px solid var(--line);}
+  .product h3{margin:0 0 .15rem; font-size:1.02rem; font-weight:500;}
+  .product .marca{margin:0 0 .65rem; font-size:.8rem; color:var(--muted);}
+  .tags{display:flex; flex-wrap:wrap; gap:.55rem;}
+  .tag{
+    position:relative; display:flex; align-items:baseline; gap:.4rem;
+    background:var(--bg); border:1px solid var(--line); border-radius:3px;
+    padding:.4rem .7rem .4rem 1.1rem; font-size:.85rem;
+  }
+  .tag::before{
+    content:""; position:absolute; left:.35rem; top:50%; transform:translateY(-50%);
+    width:6px; height:6px; border-radius:50%; background:var(--hole); border:1px solid var(--line);
+  }
+  .tag .store{color:var(--muted);}
+  .tag .price{font-family:"IBM Plex Mono",monospace; font-weight:600;}
+  .tag.best{background:var(--green); border-color:var(--green);}
+  .tag.best .store, .tag.best .price{color:#fff;}
+  .tag.best::before{background:var(--green); border-color:#fff;}
+  .empty{color:var(--muted); padding:1.5rem 0; font-size:.95rem;}
+  footer{margin-top:2.5rem; font-size:.78rem; color:var(--muted); line-height:1.5;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>¿Dónde está más barato?</h1>
+    <p>Buscá un producto y compará precios entre supermercados cerca tuyo.</p>
+  </header>
+
+  <div class="status" id="status">Cargando precios...</div>
+
+  <div class="search">
+    <input id="q" type="text" placeholder="Ej: leche, arroz, yerba..." autocomplete="off" disabled>
+  </div>
+
+  <div class="results" id="results"></div>
+
+  <footer id="footer"></footer>
+</div>
+
+<script>
+let DATA = [];
+
+function norm(s){
+  return (s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");
+}
+
+function render(list){
+  const el = document.getElementById("results");
+  el.innerHTML = "";
+  if(!list.length){
+    el.innerHTML = '<div class="empty">No encontramos ese producto en el último relevamiento.</div>';
+    return;
+  }
+  list.forEach(item => {
+    const entries = Object.entries(item.precios).sort((a,b)=>a[1]-b[1]);
+    const min = entries[0][1];
+    const div = document.createElement("div");
+    div.className = "product";
+    const tags = entries.map(([store,price]) =>
+      `<div class="tag${price===min?' best':''}"><span class="store">${store}</span><span class="price">$${Number(price).toLocaleString('es-AR')}</span></div>`
+    ).join("");
+    div.innerHTML = `<h3>${item.nombre}</h3>${item.marca ? `<p class="marca">${item.marca}</p>` : ''}<div class="tags">${tags}</div>`;
+    el.appendChild(div);
+  });
+}
+
+function wireSearch(){
+  const input = document.getElementById("q");
+  input.disabled = false;
+  input.addEventListener("input", () => {
+    const q = norm(input.value.trim());
+    const filtered = q
+      ? DATA.filter(d => norm(d.nombre).includes(q) || norm(d.marca).includes(q) || norm(d.termino_busqueda).includes(q))
+      : DATA;
+    render(filtered);
+  });
+  render(DATA);
+}
+
+fetch("data/precios.json")
+  .then(r => {
+    if(!r.ok) throw new Error("No se encontró data/precios.json");
+    return r.json();
+  })
+  .then(json => {
+    DATA = json.productos || [];
+    const fecha = json.actualizado ? new Date(json.actualizado).toLocaleString('es-AR') : "desconocida";
+    document.getElementById("status").textContent = `Última actualización: ${fecha} · ${DATA.length} productos relevados`;
+    document.getElementById("footer").textContent = "Los precios se actualizan automáticamente cada 48 horas desde la base de Precios Claros. Pueden diferir del precio de góndola en el momento de comprar.";
+    wireSearch();
+  })
+  .catch(err => {
+    const status = document.getElementById("status");
+    status.classList.add("error");
+    status.textContent = "No se pudo cargar data/precios.json. Si estás abriendo este archivo directo desde tu computadora, subilo a GitHub Pages primero (el navegador bloquea leer archivos locales así).";
+  });
+</script>
+</body>
+</html>
