@@ -1,0 +1,142 @@
+{
+  "actualizado": "2026-09-27T00:39:19.125066+00:00",
+  "origen": {
+    "lat": -34.6796,
+    "lng": -58.5636
+  },
+  "productos": [
+    {
+      "termino_busqueda": "leche entera",
+      "nombre": "Leche Entera Larga Vida Tradicion Tres Niñas 1 Lt",
+      "marca": "TRES NIÑAS",
+      "precios": {
+        "Supermercados DIA": 2750.0,
+        "HiperChangomas": 2719.0,
+        "Disco": 2750.0,
+        "COTO CICSA": 2750.0
+      }
+    },
+    {
+      "termino_busqueda": "pan lactal",
+      "nombre": "Pan Lactal Salvado",
+      "marca": "REYOR",
+      "precios": {
+        "Supermercados DIA": 3329.0
+      }
+    },
+    {
+      "termino_busqueda": "arroz",
+      "nombre": "Arroz Parboil Selecc",
+      "marca": "GALLO",
+      "precios": {
+        "Supermercados DIA": 1570.0,
+        "HiperChangomas": 1559.0,
+        "Disco": 1700.0,
+        "COTO CICSA": 1570.0
+      }
+    },
+    {
+      "termino_busqueda": "aceite girasol",
+      "nombre": "Aceite de Girasol Cocinero 900 Ml",
+      "marca": "COCINERO",
+      "precios": {
+        "Supermercados DIA": 4370.0,
+        "HiperChangomas": 4329.0,
+        "Disco": 4550.0,
+        "COTO CICSA": 4370.0
+      }
+    },
+    {
+      "termino_busqueda": "fideos",
+      "nombre": "Fideos Tirabuzon N28 Matarazzo 500 Gr",
+      "marca": "MATARAZZO",
+      "precios": {
+        "Supermercados DIA": 2036.0,
+        "HiperChangomas": 2079.0,
+        "Disco": 2100.0,
+        "COTO CICSA": 2100.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 1357.33,
+          "descripcion": "33% de descuento. 3X2 PASTAS SECAS - Vigencia: Desde el 26/09/2026 hasta el 26/09/2026"
+        }
+      }
+    },
+    {
+      "termino_busqueda": "yerba mate",
+      "nombre": "Yerba Mate con Palo 4Flex Taragui 1 Kg",
+      "marca": "TARAGUI",
+      "precios": {
+        "Supermercados DIA": 5369.0,
+        "HiperChangomas": 5689.0,
+        "Disco": 5650.0,
+        "COTO CICSA": 5370.0
+      }
+    },
+    {
+      "termino_busqueda": "papel higienico",
+      "nombre": "Papel Higienico Fresh Hoja Simple con Aloe Vera Higienol 4 Un 30 Mt",
+      "marca": "HIGIENOL",
+      "precios": {
+        "Supermercados DIA": 2501.0,
+        "HiperChangomas": 2479.0,
+        "Disco": 2750.0,
+        "COTO CICSA": 2577.99
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 1965.0,
+          "descripcion": "24% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
+        }
+      }
+    },
+    {
+      "termino_busqueda": "detergente",
+      "nombre": "Detergente Liquido Bioactive Lima Cif 300 Ml",
+      "marca": "CIF",
+      "precios": {
+        "SIMPLICITY": 2762.5,
+        "Supermercados DIA": 2700.0,
+        "HiperChangomas": 2699.0,
+        "Disco": 2900.0,
+        "COTO CICSA": 2710.99,
+        "FARMACITY": 2762.5
+      }
+    },
+    {
+      "termino_busqueda": "azucar",
+      "nombre": "Azucar Molida Superior Ledesma 1 Kg",
+      "marca": "LEDESMA",
+      "precios": {
+        "Supermercados DIA": 1518.0,
+        "HiperChangomas": 1629.0,
+        "Disco": 1650.0,
+        "COTO CICSA": 1567.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 1470.0,
+          "descripcion": "6% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
+        }
+      }
+    },
+    {
+      "termino_busqueda": "cafe molido",
+      "nombre": "Cafe Molido Torrado en Bolsa Cabrales 500 Gr",
+      "marca": "CABRALES",
+      "precios": {
+        "Supermercados DIA": 14550.0,
+        "HiperChangomas": 14399.0,
+        "Disco": 17300.0,
+        "COTO CICSA": 14548.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 10912.5,
+          "descripcion": "25% de descuento. 25% CAFE CABRALES - Vigencia: Desde el 23/09/2026 hasta el 28/09/2026"
+        }
+      }
+    }
+  ]
+}
