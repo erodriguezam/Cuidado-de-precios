@@ -24,7 +24,8 @@ import requests
 # San Justo, La Matanza, Buenos Aires (ajustar si hace falta más precisión)
 HOME_LAT = -34.6796
 HOME_LNG = -58.5636
-CANTIDAD_SUCURSALES = 25  # cuántas sucursales cercanas traer
+CANTIDAD_SUCURSALES = 80  # cuántas sucursales pedirle a la API (después se filtran por distancia)
+RADIO_KM = 8  # nos quedamos solo con las que estén a esta distancia o menos
 
 # Productos a rastrear. Se puede agregar/sacar líneas libremente.
 PRODUCTOS = [
@@ -71,7 +72,8 @@ def obtener_sucursales(lat: float, lng: float, limit: int = 25) -> list[dict]:
 
 
 def id_sucursal(suc: dict) -> str:
-    """Reconstruye el id compuesto que usa la API (comercio-bandera-sucursal)."""
+    """Reconstruye el id compuesto que usa la API (comercio-bandera-sucursal),
+    necesario para pedir precios."""
     for campo in ("id", "sucursal_id", "idSucursal"):
         if campo in suc:
             return str(suc[campo])
@@ -79,6 +81,16 @@ def id_sucursal(suc: dict) -> str:
     return "-".join(
         str(suc.get(c, "")) for c in ("comercioId", "banderaId", "sucursalId")
     )
+
+
+def clave_match(suc: dict) -> str:
+    """Clave banderaId-sucursalId, que es como el detalle de producto identifica
+    cada sucursal (distinto del id compuesto de arriba)."""
+    sucursal_id = suc.get("sucursalId")
+    if sucursal_id is None:
+        # el id compuesto tiene forma comercio-bandera-sucursal; nos quedamos con el último tramo
+        sucursal_id = id_sucursal(suc).split("-")[-1]
+    return f"{suc.get('banderaId')}-{sucursal_id}"
 
 
 def nombre_cadena(suc: dict) -> str:
@@ -103,21 +115,84 @@ def buscar_producto(term: str, sucursal_ids: list[str]) -> list[dict]:
     )
     resp.raise_for_status()
     data = resp.json()
-    return data.get("productos", [])
+    if isinstance(data, list):
+        return data
+    for clave in ("productos", "resultados", "items", "data"):
+        if clave in data:
+            return data[clave]
+    print(f"  (aviso: no reconozco la forma de la respuesta, claves: {list(data.keys())})")
+    return []
+
+
+def obtener_detalle_producto(id_producto: str, sucursal_ids: list[str]) -> dict:
+    """Trae el detalle de un producto puntual, con precio por sucursal."""
+    resp = requests.get(
+        f"{BASE_URL}/producto",
+        params={
+            "id_producto": id_producto,
+            "array_sucursales": ",".join(sucursal_ids),
+        },
+        headers=HEADERS,
+        timeout=20,
+    )
+    resp.raise_for_status()
+    return resp.json()
+
+
+def extraer_precios_por_cadena(detalle: dict, mapa_cadena: dict) -> tuple[dict, dict]:
+    """Busca, dentro de la respuesta de detalle, la lista de precios por sucursal.
+    Devuelve (precios_por_cadena, ofertas_por_cadena): el precio de lista más barato
+    de cada cadena, y por separado cualquier promoción activa (promo1/promo2) que
+    encuentre, con su descripción."""
+    precios_por_cadena = {}
+    ofertas_por_cadena = {}
+    lista = detalle.get("sucursales") if isinstance(detalle, dict) else detalle
+    if not lista:
+        return precios_por_cadena, ofertas_por_cadena
+
+    for entry in lista:
+        if "message" in entry:
+            continue  # esta sucursal no tiene el producto
+        clave = f"{entry.get('banderaId')}-{entry.get('id')}"
+        cadena = mapa_cadena.get(clave)
+        if not cadena:
+            continue
+
+        info = entry.get("preciosProducto") or {}
+        precio = info.get("precioLista")
+        if precio:
+            actual = precios_por_cadena.get(cadena)
+            if actual is None or precio < actual:
+                precios_por_cadena[cadena] = precio
+
+        for promo_key in ("promo1", "promo2"):
+            promo = info.get(promo_key) or {}
+            precio_promo = promo.get("precio")
+            if precio_promo:  # viene vacío ("") cuando no hay oferta activa
+                actual = ofertas_por_cadena.get(cadena, {}).get("precio")
+                if actual is None or precio_promo < actual:
+                    ofertas_por_cadena[cadena] = {
+                        "precio": precio_promo,
+                        "descripcion": promo.get("descripcion") or "",
+                    }
+
+    return precios_por_cadena, ofertas_por_cadena
 
 
 def main():
     print(f"Buscando sucursales cerca de ({HOME_LAT}, {HOME_LNG})...")
     sucursales = obtener_sucursales(HOME_LAT, HOME_LNG, CANTIDAD_SUCURSALES)
-    print(f"  -> {len(sucursales)} sucursales encontradas")
-    if sucursales:
-        print("  Ejemplo de respuesta cruda (para ajustar nombres de campo si hace falta):")
-        print(" ", json.dumps(sucursales[0], ensure_ascii=False)[:400])
+    print(f"  -> {len(sucursales)} sucursales encontradas en total")
+    sucursales = [s for s in sucursales if (s.get("distanciaNumero") or 0) <= RADIO_KM]
+    print(f"  -> {len(sucursales)} quedan dentro de {RADIO_KM} km")
+    for s in sucursales:
+        print(f"    - {nombre_cadena(s)} ({s.get('sucursalNombre')})")
 
-    mapa_cadena = {id_sucursal(s): nombre_cadena(s) for s in sucursales}
-    ids = list(mapa_cadena.keys())
+    mapa_cadena = {clave_match(s): nombre_cadena(s) for s in sucursales}
+    ids = [id_sucursal(s) for s in sucursales]
 
     resultado = []
+    primer_detalle_mostrado = False
     for term in PRODUCTOS:
         print(f"Buscando '{term}'...")
         try:
@@ -126,32 +201,37 @@ def main():
             print(f"  ERROR buscando '{term}': {e}")
             continue
 
-        for p in productos:
-            precios_por_cadena = {}
-            # La API suele traer un array de precios por sucursal dentro del producto;
-            # probamos los nombres de campo más habituales.
-            for campo_lista in ("precios", "sucursales", "preciosPorSucursal"):
-                if campo_lista in p:
-                    for entry in p[campo_lista]:
-                        suc_id = str(
-                            entry.get("id_sucursal") or entry.get("sucursalId") or ""
-                        )
-                        precio = entry.get("precio") or entry.get("precioLista")
-                        cadena = mapa_cadena.get(suc_id)
-                        if cadena and precio:
-                            # nos quedamos con el más barato de esa cadena
-                            actual = precios_por_cadena.get(cadena)
-                            if actual is None or precio < actual:
-                                precios_por_cadena[cadena] = precio
-                    break
+        print(f"  -> {len(productos)} productos encontrados")
+        # por ahora nos quedamos con el primer resultado (el más disponible) por término
+        for p in productos[:1]:
+            id_producto = p.get("id")
+            if not id_producto:
+                continue
+            try:
+                detalle = obtener_detalle_producto(str(id_producto), ids)
+            except requests.RequestException as e:
+                print(f"  ERROR pidiendo detalle de '{p.get('nombre')}': {e}")
+                continue
+
+            precios_por_cadena, ofertas_por_cadena = extraer_precios_por_cadena(detalle, mapa_cadena)
+
+            if not primer_detalle_mostrado:
+                primer_detalle_mostrado = True
+                print(f"  Precios encontrados para '{p.get('nombre')}': {precios_por_cadena}")
+                if ofertas_por_cadena:
+                    print(f"  ¡Ofertas encontradas!: {ofertas_por_cadena}")
 
             if precios_por_cadena:
-                resultado.append({
+                entrada = {
                     "termino_busqueda": term,
                     "nombre": p.get("nombre") or p.get("presentacion") or term,
                     "marca": p.get("marca"),
                     "precios": precios_por_cadena,
-                })
+                }
+                if ofertas_por_cadena:
+                    entrada["ofertas"] = ofertas_por_cadena
+                resultado.append(entrada)
+            time.sleep(0.5)
 
         time.sleep(1)  # no golpear la API muy seguido
 
