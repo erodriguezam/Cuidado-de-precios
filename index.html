@@ -60,6 +60,13 @@
   .tag.best{background:var(--green); border-color:var(--green);}
   .tag.best .store, .tag.best .price{color:#fff;}
   .tag.best::before{background:var(--green); border-color:#fff;}
+  .tag.oferta{border-color:var(--mustard);}
+  .price-orig{text-decoration:line-through; color:var(--muted); font-size:.78em; margin-right:.3em;}
+  .badge{
+    background:var(--mustard); color:#241C09; font-size:.68rem; font-weight:600;
+    padding:.1rem .4rem; border-radius:3px; margin-left:.3rem; letter-spacing:.02em;
+  }
+  .tag.best.oferta .badge{background:#fff; color:var(--mustard);}
   .empty{color:var(--muted); padding:1.5rem 0; font-size:.95rem;}
   footer{margin-top:2.5rem; font-size:.78rem; color:var(--muted); line-height:1.5;}
 </style>
@@ -97,13 +104,22 @@ function render(list){
     return;
   }
   list.forEach(item => {
-    const entries = Object.entries(item.precios).sort((a,b)=>a[1]-b[1]);
-    const min = entries[0][1];
+    const ofertas = item.ofertas || {};
+    const efectivo = ([store, precio]) => (ofertas[store] ? ofertas[store].precio : precio);
+    const entries = Object.entries(item.precios).sort((a, b) => efectivo(a) - efectivo(b));
+    const min = efectivo(entries[0]);
     const div = document.createElement("div");
     div.className = "product";
-    const tags = entries.map(([store,price]) =>
-      `<div class="tag${price===min?' best':''}"><span class="store">${store}</span><span class="price">$${Number(price).toLocaleString('es-AR')}</span></div>`
-    ).join("");
+    const tags = entries.map(([store, price]) => {
+      const oferta = ofertas[store];
+      const precioFinal = oferta ? oferta.precio : price;
+      const esMin = precioFinal === min;
+      const precioHtml = oferta
+        ? `<span class="price-orig">$${Number(price).toLocaleString('es-AR')}</span><span class="price">$${Number(oferta.precio).toLocaleString('es-AR')}</span><span class="badge">OFERTA</span>`
+        : `<span class="price">$${Number(price).toLocaleString('es-AR')}</span>`;
+      const titulo = oferta ? ` title="${oferta.descripcion.replace(/"/g, '&quot;')}"` : "";
+      return `<div class="tag${esMin ? ' best' : ''}${oferta ? ' oferta' : ''}"${titulo}><span class="store">${store}</span>${precioHtml}</div>`;
+    }).join("");
     div.innerHTML = `<h3>${item.nombre}</h3>${item.marca ? `<p class="marca">${item.marca}</p>` : ''}<div class="tags">${tags}</div>`;
     el.appendChild(div);
   });
@@ -131,7 +147,7 @@ fetch("data/precios.json")
     DATA = json.productos || [];
     const fecha = json.actualizado ? new Date(json.actualizado).toLocaleString('es-AR') : "desconocida";
     document.getElementById("status").textContent = `Última actualización: ${fecha} · ${DATA.length} productos relevados`;
-    document.getElementById("footer").textContent = "Los precios se actualizan automáticamente cada 48 horas desde la base de Precios Claros. Pueden diferir del precio de góndola en el momento de comprar.";
+    document.getElementById("footer").textContent = "Los precios y ofertas se actualizan automáticamente cada 48 horas desde la base de Precios Claros. Pueden diferir del precio de góndola en el momento de comprar.";
     wireSearch();
   })
   .catch(err => {
