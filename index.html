@@ -68,6 +68,12 @@
   }
   .tag.best.oferta .badge{background:#fff; color:var(--mustard);}
   .empty{color:var(--muted); padding:1.5rem 0; font-size:.95rem;}
+  .seccion{margin-bottom:.5rem;}
+  .seccion h2{
+    font-size:.78rem; text-transform:uppercase; letter-spacing:.08em;
+    color:var(--muted); font-weight:600; margin:1.6rem 0 .2rem;
+  }
+  .seccion:first-child h2{margin-top:.4rem;}
   footer{margin-top:2.5rem; font-size:.78rem; color:var(--muted); line-height:1.5;}
 </style>
 </head>
@@ -96,6 +102,32 @@ function norm(s){
   return (s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");
 }
 
+const CATEGORIAS = [
+  { clave: "frescos", titulo: "Frescos" },
+  { clave: "almacen", titulo: "Almacén" },
+];
+
+function renderProducto(item){
+  const ofertas = item.ofertas || {};
+  const efectivo = ([store, precio]) => (ofertas[store] ? ofertas[store].precio : precio);
+  const entries = Object.entries(item.precios).sort((a, b) => efectivo(a) - efectivo(b));
+  const min = efectivo(entries[0]);
+  const div = document.createElement("div");
+  div.className = "product";
+  const tags = entries.map(([store, price]) => {
+    const oferta = ofertas[store];
+    const precioFinal = oferta ? oferta.precio : price;
+    const esMin = precioFinal === min;
+    const precioHtml = oferta
+      ? `<span class="price-orig">$${Number(price).toLocaleString('es-AR')}</span><span class="price">$${Number(oferta.precio).toLocaleString('es-AR')}</span><span class="badge">OFERTA</span>`
+      : `<span class="price">$${Number(price).toLocaleString('es-AR')}</span>`;
+    const titulo = oferta ? ` title="${oferta.descripcion.replace(/"/g, '&quot;')}"` : "";
+    return `<div class="tag${esMin ? ' best' : ''}${oferta ? ' oferta' : ''}"${titulo}><span class="store">${store}</span>${precioHtml}</div>`;
+  }).join("");
+  div.innerHTML = `<h3>${item.nombre}</h3>${item.marca ? `<p class="marca">${item.marca}</p>` : ''}<div class="tags">${tags}</div>`;
+  return div;
+}
+
 function render(list){
   const el = document.getElementById("results");
   el.innerHTML = "";
@@ -103,25 +135,14 @@ function render(list){
     el.innerHTML = '<div class="empty">No encontramos ese producto en el último relevamiento.</div>';
     return;
   }
-  list.forEach(item => {
-    const ofertas = item.ofertas || {};
-    const efectivo = ([store, precio]) => (ofertas[store] ? ofertas[store].precio : precio);
-    const entries = Object.entries(item.precios).sort((a, b) => efectivo(a) - efectivo(b));
-    const min = efectivo(entries[0]);
-    const div = document.createElement("div");
-    div.className = "product";
-    const tags = entries.map(([store, price]) => {
-      const oferta = ofertas[store];
-      const precioFinal = oferta ? oferta.precio : price;
-      const esMin = precioFinal === min;
-      const precioHtml = oferta
-        ? `<span class="price-orig">$${Number(price).toLocaleString('es-AR')}</span><span class="price">$${Number(oferta.precio).toLocaleString('es-AR')}</span><span class="badge">OFERTA</span>`
-        : `<span class="price">$${Number(price).toLocaleString('es-AR')}</span>`;
-      const titulo = oferta ? ` title="${oferta.descripcion.replace(/"/g, '&quot;')}"` : "";
-      return `<div class="tag${esMin ? ' best' : ''}${oferta ? ' oferta' : ''}"${titulo}><span class="store">${store}</span>${precioHtml}</div>`;
-    }).join("");
-    div.innerHTML = `<h3>${item.nombre}</h3>${item.marca ? `<p class="marca">${item.marca}</p>` : ''}<div class="tags">${tags}</div>`;
-    el.appendChild(div);
+  CATEGORIAS.forEach(({clave, titulo}) => {
+    const items = list.filter(item => (item.categoria || "almacen") === clave);
+    if(!items.length) return;
+    const seccion = document.createElement("div");
+    seccion.className = "seccion";
+    seccion.innerHTML = `<h2>${titulo}</h2>`;
+    items.forEach(item => seccion.appendChild(renderProducto(item)));
+    el.appendChild(seccion);
   });
 }
 
