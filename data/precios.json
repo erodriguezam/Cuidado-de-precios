@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-27T00:39:19.125066+00:00",
+  "actualizado": "2026-09-27T12:49:18.522183+00:00",
   "origen": {
     "lat": -34.6796,
     "lng": -58.5636
@@ -7,17 +7,303 @@
   "productos": [
     {
       "termino_busqueda": "leche entera",
+      "categoria": "frescos",
+      "nombre": "Leche Entera 3% Uat La Serenisima 1 Lt",
+      "marca": "LA SERENÍSIMA",
+      "precios": {
+        "Supermercados DIA": 3060.0,
+        "Disco": 3150.0,
+        "COTO CICSA": 3060.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 2290.0,
+          "descripcion": "25% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
+        }
+      }
+    },
+    {
+      "termino_busqueda": "leche entera",
+      "categoria": "frescos",
       "nombre": "Leche Entera Larga Vida Tradicion Tres Niñas 1 Lt",
       "marca": "TRES NIÑAS",
       "precios": {
         "Supermercados DIA": 2750.0,
-        "HiperChangomas": 2719.0,
         "Disco": 2750.0,
         "COTO CICSA": 2750.0
       }
     },
     {
+      "termino_busqueda": "leche entera",
+      "categoria": "frescos",
+      "nombre": "Leche Entera UAT Larga Vida Tregar 1 Lt",
+      "marca": "TREGAR",
+      "precios": {
+        "Supermercados DIA": 2550.0,
+        "Disco": 2550.0,
+        "COTO CICSA": 2559.0
+      }
+    },
+    {
+      "termino_busqueda": "leche entera",
+      "categoria": "frescos",
+      "nombre": "Leche Entera UAT Larga Vida en Tetra Brick Manfrey 1 Lt",
+      "marca": "MANFREY",
+      "precios": {
+        "Supermercados DIA": 1990.0,
+        "Disco": 2150.0
+      }
+    },
+    {
+      "termino_busqueda": "leche entera",
+      "categoria": "frescos",
+      "nombre": "Leche Entera Uat Larga Vida Dia 1 Lt",
+      "marca": "DÍA",
+      "precios": {
+        "Supermercados DIA": 2290.0
+      }
+    },
+    {
+      "termino_busqueda": "leche descremada",
+      "categoria": "frescos",
+      "nombre": "Leche Descremada UAT Reducida Lactosa Las 3 Ninas 1 Lt",
+      "marca": "LAS TRES NIÑAS",
+      "precios": {
+        "Supermercados DIA": 2950.0,
+        "Disco": 3100.0,
+        "COTO CICSA": 2950.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 2200.0,
+          "descripcion": "25% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
+        }
+      }
+    },
+    {
+      "termino_busqueda": "leche descremada",
+      "categoria": "frescos",
+      "nombre": "Leche Descremada Uht Las Tres Niñas 1 Lt",
+      "marca": "LAS TRES NIÑAS",
+      "precios": {
+        "Supermercados DIA": 2750.0,
+        "Disco": 2750.0,
+        "COTO CICSA": 2750.0
+      }
+    },
+    {
+      "termino_busqueda": "leche descremada",
+      "categoria": "frescos",
+      "nombre": "Leche Descremada Protein Larga Vida Uat La Serenisima 1 Lt",
+      "marca": "LA SERENÍSIMA",
+      "precios": {
+        "Supermercados DIA": 3119.0,
+        "Disco": 3250.0,
+        "COTO CICSA": 3118.0
+      }
+    },
+    {
+      "termino_busqueda": "leche descremada",
+      "categoria": "frescos",
+      "nombre": "Leche Descremada Sachet 1Casanto 1 Lt",
+      "marca": "CASANTO",
+      "precios": {
+        "Supermercados DIA": 1940.0,
+        "Disco": 2050.0,
+        "COTO CICSA": 1785.0
+      }
+    },
+    {
+      "termino_busqueda": "leche descremada",
+      "categoria": "frescos",
+      "nombre": "Leche Descremada 2% Sachet Casanto 1 Lt",
+      "marca": "CASANTO",
+      "precios": {
+        "Supermercados DIA": 1940.0,
+        "Disco": 2050.0,
+        "COTO CICSA": 1785.0
+      }
+    },
+    {
+      "termino_busqueda": "yogur bebible",
+      "categoria": "frescos",
+      "nombre": "Yogur Bebible Entero sabor Vainilla Milkaut 900 Gr",
+      "marca": "MILKAUT",
+      "precios": {
+        "Supermercados DIA": 4629.0,
+        "COTO CICSA": 4629.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 3008.85,
+          "descripcion": "35% de descuento. 35% YOG BEB MILKAUT - Vigencia: Desde el 23/09/2026 hasta el 28/09/2026"
+        }
+      }
+    },
+    {
+      "termino_busqueda": "yogur bebible",
+      "categoria": "frescos",
+      "nombre": "Yogur Bebible Entero sabor Frutilla Sachet Milkaut 900 Gr",
+      "marca": "MILKAUT",
+      "precios": {
+        "Supermercados DIA": 4629.0,
+        "COTO CICSA": 4629.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 3008.85,
+          "descripcion": "35% de descuento. 35% YOG BEB MILKAUT - Vigencia: Desde el 23/09/2026 hasta el 28/09/2026"
+        }
+      }
+    },
+    {
+      "termino_busqueda": "yogur bebible",
+      "categoria": "frescos",
+      "nombre": "Yogur Bebible Entero sabor Frutilla Sachet Ilolay 1 Kg",
+      "marca": "ILOLAY",
+      "precios": {
+        "COTO CICSA": 4049.0
+      }
+    },
+    {
+      "termino_busqueda": "yogur bebible",
+      "categoria": "frescos",
+      "nombre": "Yogur Bebible sin Azucar Frutilla La Serenisima 900 Ml",
+      "marca": "LA SERENÍSIMA",
+      "precios": {
+        "Disco": 3150.0,
+        "COTO CICSA": 3035.0
+      }
+    },
+    {
+      "termino_busqueda": "yogur bebible",
+      "categoria": "frescos",
+      "nombre": "Yogur Bebible Semidescremado Frutilla Sachet Tregar 900 Gr",
+      "marca": "TREGAR",
+      "precios": {
+        "COTO CICSA": 3590.0
+      }
+    },
+    {
+      "termino_busqueda": "queso cremoso",
+      "categoria": "frescos",
+      "nombre": "Queso Cremoso     La",
+      "marca": "PAULI",
+      "precios": {
+        "Supermercados DIA": 16990.0
+      }
+    },
+    {
+      "termino_busqueda": "queso cremoso",
+      "categoria": "frescos",
+      "nombre": "Queso Cremoso Clasic",
+      "marca": "DIA",
+      "precios": {
+        "Supermercados DIA": 2990.0
+      }
+    },
+    {
+      "termino_busqueda": "queso cremoso",
+      "categoria": "frescos",
+      "nombre": "Queso Cremoso Light",
+      "marca": "DIA",
+      "precios": {
+        "Supermercados DIA": 2990.0
+      }
+    },
+    {
+      "termino_busqueda": "queso cremoso",
+      "categoria": "frescos",
+      "nombre": "Queso Cremoso Horma Puyehue X Kgm",
+      "marca": "PUYEHUE",
+      "precios": {
+        "COTO CICSA": 10699.0
+      }
+    },
+    {
+      "termino_busqueda": "queso cremoso",
+      "categoria": "frescos",
+      "nombre": "Queso Cremoso Mediterranea X 500 Grm",
+      "marca": "MEDITERRANEA",
+      "precios": {
+        "COTO CICSA": 7295.0
+      }
+    },
+    {
+      "termino_busqueda": "manteca",
+      "categoria": "frescos",
+      "nombre": "Manteca La Serenisima 200 Gr",
+      "marca": "LA SERENÍSIMA",
+      "precios": {
+        "Supermercados DIA": 5010.0,
+        "Disco": 5010.0,
+        "COTO CICSA": 5010.0
+      }
+    },
+    {
+      "termino_busqueda": "manteca",
+      "categoria": "frescos",
+      "nombre": "Manteca Extra La Serenisima 100 Gr",
+      "marca": "LA SERENÍSIMA",
+      "precios": {
+        "Supermercados DIA": 2835.0,
+        "Disco": 2950.0,
+        "COTO CICSA": 2835.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 2120.0,
+          "descripcion": "25% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
+        }
+      }
+    },
+    {
+      "termino_busqueda": "manteca",
+      "categoria": "frescos",
+      "nombre": "Manteca Calidad Extra Tonadita 200 Gr",
+      "marca": "TONADITA",
+      "precios": {
+        "Supermercados DIA": 4267.0,
+        "Disco": 4550.0,
+        "COTO CICSA": 4399.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 3300.0,
+          "descripcion": "25% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
+        }
+      }
+    },
+    {
+      "termino_busqueda": "manteca",
+      "categoria": "frescos",
+      "nombre": "Manteca Calidad Extra La Paulina 200 Gr",
+      "marca": "LA PAULINA",
+      "precios": {
+        "Supermercados DIA": 4845.0,
+        "Disco": 4850.0,
+        "COTO CICSA": 4845.0
+      }
+    },
+    {
+      "termino_busqueda": "manteca",
+      "categoria": "frescos",
+      "nombre": "Manteca Ilolay X 100g         ",
+      "marca": "sin marca",
+      "precios": {
+        "Supermercados DIA": 2510.0,
+        "COTO CICSA": 2615.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 1880.0,
+          "descripcion": "25% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
+        }
+      }
+    },
+    {
       "termino_busqueda": "pan lactal",
+      "categoria": "almacen",
       "nombre": "Pan Lactal Salvado",
       "marca": "REYOR",
       "precios": {
@@ -25,92 +311,292 @@
       }
     },
     {
+      "termino_busqueda": "pan lactal",
+      "categoria": "almacen",
+      "nombre": "Pan de Pancho Lactal 210 Gr",
+      "marca": "LACTAL",
+      "precios": {
+        "Supermercados DIA": 2629.0,
+        "Disco": 2900.0,
+        "COTO CICSA": 2711.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 1760.0,
+          "descripcion": "35% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
+        }
+      }
+    },
+    {
+      "termino_busqueda": "pan lactal",
+      "categoria": "almacen",
+      "nombre": "Pan de Hamburguesa Lactal 210 Gr",
+      "marca": "LACTAL",
+      "precios": {
+        "Supermercados DIA": 2629.0,
+        "Disco": 2900.0,
+        "COTO CICSA": 2711.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 1760.0,
+          "descripcion": "35% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
+        }
+      }
+    },
+    {
+      "termino_busqueda": "galletitas dulces",
+      "categoria": "almacen",
+      "nombre": "Galletitas Dulces Porteñitas 130 Gr",
+      "marca": "PORTEÑITAS",
+      "precios": {
+        "Supermercados DIA": 1491.0,
+        "Disco": 1500.0,
+        "COTO CICSA": 1490.99
+      }
+    },
+    {
+      "termino_busqueda": "galletitas dulces",
+      "categoria": "almacen",
+      "nombre": "Galletitas Dulces Rellenas Vainilla Oreo 118 Gr",
+      "marca": "OREO",
+      "precios": {
+        "Supermercados DIA": 2469.0,
+        "Disco": 2600.0,
+        "COTO CICSA": 2470.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 1590.0,
+          "descripcion": "36% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
+        }
+      }
+    },
+    {
+      "termino_busqueda": "galletitas dulces",
+      "categoria": "almacen",
+      "nombre": "Galletitas Dulces Mana con Vainilla Mana 136 Gr",
+      "marca": "MANÁ",
+      "precios": {
+        "Supermercados DIA": 1393.0,
+        "Disco": 1400.0,
+        "COTO CICSA": 1391.99
+      }
+    },
+    {
+      "termino_busqueda": "galletitas dulces",
+      "categoria": "almacen",
+      "nombre": "Galletitas Dulces Rellenas con Crema Oreo 354 Gr",
+      "marca": "OREO",
+      "precios": {
+        "Supermercados DIA": 6450.0,
+        "Disco": 6424.0,
+        "COTO CICSA": 6659.99
+      }
+    },
+    {
+      "termino_busqueda": "galletitas dulces",
+      "categoria": "almacen",
+      "nombre": "Galletitas Dulces Canela",
+      "marca": "DULCE MAMA",
+      "precios": {
+        "Supermercados DIA": 1817.0,
+        "COTO CICSA": 1550.0
+      }
+    },
+    {
+      "termino_busqueda": "galletitas de agua",
+      "categoria": "almacen",
+      "nombre": "Galletitas de Agua Crakers Clasica Mazzei 110 Gr",
+      "marca": "MAZZEI",
+      "precios": {
+        "COTO CICSA": 959.99
+      }
+    },
+    {
       "termino_busqueda": "arroz",
+      "categoria": "almacen",
+      "nombre": "Arroz Parboil Luchetti 1 Kg",
+      "marca": "LUCCHETTI",
+      "precios": {
+        "Supermercados DIA": 2490.0,
+        "Disco": 2650.0,
+        "COTO CICSA": 2490.0
+      }
+    },
+    {
+      "termino_busqueda": "arroz",
+      "categoria": "almacen",
+      "nombre": "Arroz con Leche Clasico Pote Tregar 180 Gr",
+      "marca": "TREGAR",
+      "precios": {
+        "Supermercados DIA": 2390.0,
+        "Disco": 2500.0,
+        "COTO CICSA": 2390.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 1553.5,
+          "descripcion": "35% de descuento. 35% ARROZ C/LECHE TR - Vigencia: Desde el 23/09/2026 hasta el 28/09/2026"
+        }
+      }
+    },
+    {
+      "termino_busqueda": "arroz",
+      "categoria": "almacen",
       "nombre": "Arroz Parboil Selecc",
       "marca": "GALLO",
       "precios": {
         "Supermercados DIA": 1570.0,
-        "HiperChangomas": 1559.0,
         "Disco": 1700.0,
         "COTO CICSA": 1570.0
       }
     },
     {
-      "termino_busqueda": "aceite girasol",
-      "nombre": "Aceite de Girasol Cocinero 900 Ml",
-      "marca": "COCINERO",
+      "termino_busqueda": "arroz",
+      "categoria": "almacen",
+      "nombre": "Arroz Gallo Largo Fin Bol Pqx500g",
+      "marca": "Sin marca",
       "precios": {
-        "Supermercados DIA": 4370.0,
-        "HiperChangomas": 4329.0,
-        "Disco": 4550.0,
-        "COTO CICSA": 4370.0
+        "Supermercados DIA": 1380.0,
+        "Disco": 1450.0,
+        "COTO CICSA": 1380.0
+      }
+    },
+    {
+      "termino_busqueda": "arroz",
+      "categoria": "almacen",
+      "nombre": "Arroz Integral sin TACC Cormillot Molinos Ala 1 Kg",
+      "marca": "MOLINOS ALA",
+      "precios": {
+        "Supermercados DIA": 2450.0,
+        "Disco": 2650.0,
+        "COTO CICSA": 2450.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 1592.5,
+          "descripcion": "35% de descuento. 35% ARROZ MOLINOS AL - Vigencia: Desde el 23/09/2026 hasta el 28/09/2026"
+        }
       }
     },
     {
       "termino_busqueda": "fideos",
-      "nombre": "Fideos Tirabuzon N28 Matarazzo 500 Gr",
-      "marca": "MATARAZZO",
+      "categoria": "almacen",
+      "nombre": "Fideos Tallarin Don Vicente 500 Gr",
+      "marca": "DON VICENTE",
       "precios": {
-        "Supermercados DIA": 2036.0,
-        "HiperChangomas": 2079.0,
-        "Disco": 2100.0,
-        "COTO CICSA": 2100.0
-      },
-      "ofertas": {
-        "Supermercados DIA": {
-          "precio": 1357.33,
-          "descripcion": "33% de descuento. 3X2 PASTAS SECAS - Vigencia: Desde el 26/09/2026 hasta el 26/09/2026"
-        }
+        "Supermercados DIA": 3832.0,
+        "Disco": 3950.0,
+        "COTO CICSA": 3950.0
       }
     },
     {
-      "termino_busqueda": "yerba mate",
-      "nombre": "Yerba Mate con Palo 4Flex Taragui 1 Kg",
-      "marca": "TARAGUI",
+      "termino_busqueda": "fideos",
+      "categoria": "almacen",
+      "nombre": "Fideos Tirabuzon Don Vicente 500 Gr",
+      "marca": "DON VICENTE ",
       "precios": {
-        "Supermercados DIA": 5369.0,
-        "HiperChangomas": 5689.0,
-        "Disco": 5650.0,
-        "COTO CICSA": 5370.0
+        "Supermercados DIA": 3950.0,
+        "Disco": 3950.0,
+        "COTO CICSA": 3950.0
       }
     },
     {
-      "termino_busqueda": "papel higienico",
-      "nombre": "Papel Higienico Fresh Hoja Simple con Aloe Vera Higienol 4 Un 30 Mt",
-      "marca": "HIGIENOL",
+      "termino_busqueda": "fideos",
+      "categoria": "almacen",
+      "nombre": "Fideos Fetuccini Don Vicente 500 Gr",
+      "marca": "DON VICENTE ",
       "precios": {
-        "Supermercados DIA": 2501.0,
-        "HiperChangomas": 2479.0,
-        "Disco": 2750.0,
-        "COTO CICSA": 2577.99
-      },
-      "ofertas": {
-        "Supermercados DIA": {
-          "precio": 1965.0,
-          "descripcion": "24% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
-        }
+        "Supermercados DIA": 3950.0,
+        "Disco": 3950.0,
+        "COTO CICSA": 3950.0
       }
     },
     {
-      "termino_busqueda": "detergente",
-      "nombre": "Detergente Liquido Bioactive Lima Cif 300 Ml",
-      "marca": "CIF",
+      "termino_busqueda": "fideos",
+      "categoria": "almacen",
+      "nombre": "Fideos Caserito Don Vicente 500 Gr",
+      "marca": "DON VICENTE",
       "precios": {
-        "SIMPLICITY": 2762.5,
-        "Supermercados DIA": 2700.0,
-        "HiperChangomas": 2699.0,
-        "Disco": 2900.0,
-        "COTO CICSA": 2710.99,
-        "FARMACITY": 2762.5
+        "Supermercados DIA": 3950.0,
+        "Disco": 3950.0,
+        "COTO CICSA": 3950.0
+      }
+    },
+    {
+      "termino_busqueda": "fideos",
+      "categoria": "almacen",
+      "nombre": "Fideos Spaghetti N7 Lucchetti 500 Gr",
+      "marca": "LUCCHETTI",
+      "precios": {
+        "Supermercados DIA": 1698.0,
+        "Disco": 1850.0,
+        "COTO CICSA": 1750.0
+      }
+    },
+    {
+      "termino_busqueda": "harina",
+      "categoria": "almacen",
+      "nombre": "Harina 000 Fortificada con Calcio Cañuelas 1 Kg",
+      "marca": "CAÑUELAS",
+      "precios": {
+        "Supermercados DIA": 1080.0,
+        "Disco": 1150.0,
+        "COTO CICSA": 1080.0
+      }
+    },
+    {
+      "termino_busqueda": "harina",
+      "categoria": "almacen",
+      "nombre": "Harina con Masa Madres Especial para Pizza Pureza 1 Kg",
+      "marca": "PUREZA",
+      "precios": {
+        "Supermercados DIA": 2670.0,
+        "Disco": 2850.0,
+        "COTO CICSA": 2680.0
+      }
+    },
+    {
+      "termino_busqueda": "harina",
+      "categoria": "almacen",
+      "nombre": "Harina de Trigo 0000 Morixe 1 Kg",
+      "marca": "MORIXE",
+      "precios": {
+        "Supermercados DIA": 1509.0,
+        "Disco": 1600.0,
+        "COTO CICSA": 1512.0
+      }
+    },
+    {
+      "termino_busqueda": "harina",
+      "categoria": "almacen",
+      "nombre": "Harina Leudante Fort",
+      "marca": "BLANC",
+      "precios": {
+        "Supermercados DIA": 2350.0,
+        "Disco": 2350.0,
+        "COTO CICSA": 2350.0
+      }
+    },
+    {
+      "termino_busqueda": "harina",
+      "categoria": "almacen",
+      "nombre": "Harina de Trigo Leudante Morixe 1 Kg",
+      "marca": "MORIXE",
+      "precios": {
+        "Supermercados DIA": 1889.0,
+        "Disco": 2000.0,
+        "COTO CICSA": 1889.0
       }
     },
     {
       "termino_busqueda": "azucar",
+      "categoria": "almacen",
       "nombre": "Azucar Molida Superior Ledesma 1 Kg",
       "marca": "LEDESMA",
       "precios": {
         "Supermercados DIA": 1518.0,
-        "HiperChangomas": 1629.0,
         "Disco": 1650.0,
         "COTO CICSA": 1567.0
       },
@@ -122,12 +608,276 @@
       }
     },
     {
+      "termino_busqueda": "azucar",
+      "categoria": "almacen",
+      "nombre": "Azucar Light Doypack Hileret 250 Gr",
+      "marca": "HILERET",
+      "precios": {
+        "Supermercados DIA": 1720.0,
+        "Disco": 1750.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 1500.0,
+          "descripcion": "13% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
+        }
+      }
+    },
+    {
+      "termino_busqueda": "azucar",
+      "categoria": "almacen",
+      "nombre": "Azucar Light Doypack Hileret 500 Gr",
+      "marca": "HILERET",
+      "precios": {
+        "Supermercados DIA": 2895.0,
+        "Disco": 3000.0
+      }
+    },
+    {
+      "termino_busqueda": "azucar",
+      "categoria": "almacen",
+      "nombre": "Energizante Monster Ultra Sin Azúcar Lat 473 Cmq",
+      "marca": "MONSTER",
+      "precios": {
+        "Supermercados DIA": 3400.0,
+        "Disco": 3650.0,
+        "COTO CICSA": 3400.0
+      }
+    },
+    {
+      "termino_busqueda": "azucar",
+      "categoria": "almacen",
+      "nombre": "Coca Cola sin Azucar 2.25 Lt",
+      "marca": "COCA COLA",
+      "precios": {
+        "Supermercados DIA": 5900.0,
+        "Disco": 5900.0,
+        "COTO CICSA": 5900.0
+      }
+    },
+    {
+      "termino_busqueda": "aceite girasol",
+      "categoria": "almacen",
+      "nombre": "Aceite de Girasol Cañuelas 900 Cc",
+      "marca": "CAÑUELAS",
+      "precios": {
+        "Supermercados DIA": 4115.0,
+        "Disco": 4500.0,
+        "COTO CICSA": 4115.0
+      }
+    },
+    {
+      "termino_busqueda": "aceite girasol",
+      "categoria": "almacen",
+      "nombre": "Aceite de Girasol Natura 1.5 Lt",
+      "marca": "NATURA",
+      "precios": {
+        "Supermercados DIA": 7236.0,
+        "Disco": 7460.0,
+        "COTO CICSA": 7464.0
+      }
+    },
+    {
+      "termino_busqueda": "aceite girasol",
+      "categoria": "almacen",
+      "nombre": "Aceite de Girasol Cocinero 900 Ml",
+      "marca": "COCINERO",
+      "precios": {
+        "Supermercados DIA": 4370.0,
+        "Disco": 4550.0,
+        "COTO CICSA": 4370.0
+      }
+    },
+    {
+      "termino_busqueda": "aceite girasol",
+      "categoria": "almacen",
+      "nombre": "Aceite de Girasol Cañuelas 1.5 Lt",
+      "marca": "CAÑUELAS",
+      "precios": {
+        "Supermercados DIA": 6333.0,
+        "Disco": 7150.0,
+        "COTO CICSA": 6530.0
+      }
+    },
+    {
+      "termino_busqueda": "aceite girasol",
+      "categoria": "almacen",
+      "nombre": "Aceite de Girasol Cocinero 1.5 Lt",
+      "marca": "COCINERO",
+      "precios": {
+        "Supermercados DIA": 6925.0,
+        "Disco": 7450.0,
+        "COTO CICSA": 6925.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 5700.0,
+          "descripcion": "18% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
+        }
+      }
+    },
+    {
+      "termino_busqueda": "aceite de oliva",
+      "categoria": "almacen",
+      "nombre": "Aceite de Oliva Cocinero 500 Cc",
+      "marca": "COCINERO",
+      "precios": {
+        "Supermercados DIA": 14060.0,
+        "Disco": 14700.0,
+        "COTO CICSA": 13650.0
+      }
+    },
+    {
+      "termino_busqueda": "aceite de oliva",
+      "categoria": "almacen",
+      "nombre": "Aceite de Oliva Extra Virgen Suave Cocinero 500 Ml",
+      "marca": "COCINERO",
+      "precios": {
+        "Supermercados DIA": 14060.0,
+        "Disco": 14700.0,
+        "COTO CICSA": 13650.0
+      }
+    },
+    {
+      "termino_busqueda": "aceite de oliva",
+      "categoria": "almacen",
+      "nombre": "Aceite de Oliva Extra Virgen Nucete 500 Cc",
+      "marca": "NUCETE",
+      "precios": {
+        "Supermercados DIA": 15110.0,
+        "Disco": 15850.0,
+        "COTO CICSA": 15169.0
+      }
+    },
+    {
+      "termino_busqueda": "aceite de oliva",
+      "categoria": "almacen",
+      "nombre": "Aceite de Oliva Cañuelas 500 Ml",
+      "marca": "CAÑUELAS",
+      "precios": {
+        "Supermercados DIA": 17100.0,
+        "COTO CICSA": 17161.0
+      }
+    },
+    {
+      "termino_busqueda": "aceite de oliva",
+      "categoria": "almacen",
+      "nombre": "Aceite de Oliva Extra Virgen Clasico Cañuelas 500 Ml",
+      "marca": "CAÑUELAS",
+      "precios": {
+        "Supermercados DIA": 15291.0,
+        "COTO CICSA": 14773.24
+      }
+    },
+    {
+      "termino_busqueda": "yerba mate",
+      "categoria": "almacen",
+      "nombre": "Yerba Mate Tradicional sin TACC Cruz De Malta 500 Gr",
+      "marca": "CRUZ DE MALTA",
+      "precios": {
+        "Supermercados DIA": 2700.0,
+        "Disco": 2800.0,
+        "COTO CICSA": 2700.0
+      }
+    },
+    {
+      "termino_busqueda": "yerba mate",
+      "categoria": "almacen",
+      "nombre": "Yerba Mate Bajo Polvo 4 Flex Mañanita 500 Gr",
+      "marca": "MAÑANITA",
+      "precios": {
+        "Supermercados DIA": 2750.0,
+        "Disco": 2950.0,
+        "COTO CICSA": 2750.0,
+        "FARMACITY": 3317.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 2250.0,
+          "descripcion": "18% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
+        }
+      }
+    },
+    {
+      "termino_busqueda": "yerba mate",
+      "categoria": "almacen",
+      "nombre": "Yerba Mate en Saquitos La Tranquera 50 Un",
+      "marca": "LA TRANQUERA",
+      "precios": {
+        "Supermercados DIA": 2376.0,
+        "Disco": 2500.0,
+        "COTO CICSA": 2352.0
+      }
+    },
+    {
+      "termino_busqueda": "yerba mate",
+      "categoria": "almacen",
+      "nombre": "Yerba Mate con Palo 4Flex Taragui 500 Gr",
+      "marca": "TARAGUI",
+      "precios": {
+        "Supermercados DIA": 2893.0,
+        "Disco": 3050.0,
+        "COTO CICSA": 2893.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 2590.0,
+          "descripcion": "10% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
+        }
+      }
+    },
+    {
+      "termino_busqueda": "yerba mate",
+      "categoria": "almacen",
+      "nombre": "Yerba Mate Campo Origen Controlado La Merced 500 Gr",
+      "marca": "LA MERCED",
+      "precios": {
+        "Supermercados DIA": 4645.0,
+        "Disco": 4676.0,
+        "COTO CICSA": 4646.0
+      }
+    },
+    {
       "termino_busqueda": "cafe molido",
+      "categoria": "almacen",
+      "nombre": "Cafe Molido Clasico La Virginia 500 Gr",
+      "marca": "LA VIRGINIA",
+      "precios": {
+        "Supermercados DIA": 13420.0,
+        "Disco": 15000.0,
+        "COTO CICSA": 14574.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 13120.0,
+          "descripcion": "2% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
+        }
+      }
+    },
+    {
+      "termino_busqueda": "cafe molido",
+      "categoria": "almacen",
+      "nombre": "Cafe Molido Torrado en Bolsa Cabrales 250 Gr",
+      "marca": "CABRALES",
+      "precios": {
+        "Supermercados DIA": 7410.0,
+        "Disco": 8750.0,
+        "COTO CICSA": 7409.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 5557.5,
+          "descripcion": "25% de descuento. 25% CAFE CABRALES - Vigencia: Desde el 23/09/2026 hasta el 28/09/2026"
+        }
+      }
+    },
+    {
+      "termino_busqueda": "cafe molido",
+      "categoria": "almacen",
       "nombre": "Cafe Molido Torrado en Bolsa Cabrales 500 Gr",
       "marca": "CABRALES",
       "precios": {
         "Supermercados DIA": 14550.0,
-        "HiperChangomas": 14399.0,
         "Disco": 17300.0,
         "COTO CICSA": 14548.0
       },
@@ -136,6 +886,1578 @@
           "precio": 10912.5,
           "descripcion": "25% de descuento. 25% CAFE CABRALES - Vigencia: Desde el 23/09/2026 hasta el 28/09/2026"
         }
+      }
+    },
+    {
+      "termino_busqueda": "cafe molido",
+      "categoria": "almacen",
+      "nombre": "Cafe Molido Torrado Suave Bonafide Sensaciones 500 Gr",
+      "marca": "BONAFIDE",
+      "precios": {
+        "Supermercados DIA": 13220.0,
+        "Disco": 15650.0,
+        "COTO CICSA": 14576.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 11660.0,
+          "descripcion": "12% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
+        }
+      }
+    },
+    {
+      "termino_busqueda": "cafe molido",
+      "categoria": "almacen",
+      "nombre": "Cafe Molido Torrado Suave Bonafide Sensaciones 125 Gr",
+      "marca": "BONAFIDE",
+      "precios": {
+        "Supermercados DIA": 3650.0,
+        "COTO CICSA": 3922.0
+      }
+    },
+    {
+      "termino_busqueda": "te en saquitos",
+      "categoria": "almacen",
+      "nombre": "Te en Saquitos Green Hills 50 Un",
+      "marca": "GREEN HILLS",
+      "precios": {
+        "Supermercados DIA": 2827.0,
+        "Disco": 2803.0,
+        "COTO CICSA": 2827.0
+      }
+    },
+    {
+      "termino_busqueda": "te en saquitos",
+      "categoria": "almacen",
+      "nombre": "Te en Saquitos Filtro Diamantado Taragui 25 Un",
+      "marca": "TARAGÜÍ",
+      "precios": {
+        "Supermercados DIA": 1338.0,
+        "Disco": 1250.0,
+        "COTO CICSA": 1154.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 1195.0,
+          "descripcion": "11% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
+        }
+      }
+    },
+    {
+      "termino_busqueda": "te en saquitos",
+      "categoria": "almacen",
+      "nombre": "Te en Saquitos Green Hills 25 Un",
+      "marca": "GREEN HILLS",
+      "precios": {
+        "Supermercados DIA": 1616.0,
+        "Disco": 1700.0,
+        "COTO CICSA": 1616.0
+      }
+    },
+    {
+      "termino_busqueda": "te en saquitos",
+      "categoria": "almacen",
+      "nombre": "Te en Saquitos La Virginia 25 Un",
+      "marca": "LA VIRGINIA",
+      "precios": {
+        "Supermercados DIA": 1050.0,
+        "Disco": 1200.0,
+        "COTO CICSA": 996.0
+      }
+    },
+    {
+      "termino_busqueda": "te en saquitos",
+      "categoria": "almacen",
+      "nombre": "Te en Saquitos Filtro Diamantado Taragui 50 Un",
+      "marca": "TARAGÜÍ",
+      "precios": {
+        "Supermercados DIA": 2079.0,
+        "Disco": 2250.0,
+        "COTO CICSA": 2078.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 1499.0,
+          "descripcion": "28% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
+        }
+      }
+    },
+    {
+      "termino_busqueda": "sal fina",
+      "categoria": "almacen",
+      "nombre": "Sal Fina en Salero Celusal 500 Gr",
+      "marca": "CELUSAL",
+      "precios": {
+        "Supermercados DIA": 4106.0,
+        "Disco": 4400.0,
+        "COTO CICSA": 4106.0
+      }
+    },
+    {
+      "termino_busqueda": "sal fina",
+      "categoria": "almacen",
+      "nombre": "Sal Fina en Paquete Celusal 500 Gr",
+      "marca": "CELUSAL",
+      "precios": {
+        "Supermercados DIA": 1549.0,
+        "Disco": 1650.0,
+        "COTO CICSA": 1549.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 1160.0,
+          "descripcion": "25% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
+        }
+      }
+    },
+    {
+      "termino_busqueda": "sal fina",
+      "categoria": "almacen",
+      "nombre": "Sal Fina en Estuche Celusal 500 Gr",
+      "marca": "CELUSAL",
+      "precios": {
+        "Supermercados DIA": 1785.0,
+        "Disco": 1900.0,
+        "COTO CICSA": 1787.0
+      }
+    },
+    {
+      "termino_busqueda": "sal fina",
+      "categoria": "almacen",
+      "nombre": "Sal Fina Modificada 66% Menos de Sodio Genser 300 Gr",
+      "marca": "GENSER",
+      "precios": {
+        "Supermercados DIA": 5618.0,
+        "Disco": 6050.0,
+        "COTO CICSA": 5618.0
+      }
+    },
+    {
+      "termino_busqueda": "sal fina",
+      "categoria": "almacen",
+      "nombre": "Sal Fina en Salero Celusal 250 Gr",
+      "marca": "CELUSAL",
+      "precios": {
+        "Supermercados DIA": 3172.0,
+        "Disco": 3400.0,
+        "COTO CICSA": 3172.0
+      }
+    },
+    {
+      "termino_busqueda": "atun en lata",
+      "categoria": "almacen",
+      "nombre": "Atun en Aceite Lata La Campagnola 300 Gr",
+      "marca": "LA CAMPAGNOLA",
+      "precios": {
+        "COTO CICSA": 9809.0
+      }
+    },
+    {
+      "termino_busqueda": "atun en lata",
+      "categoria": "almacen",
+      "nombre": "Atun en Aceite Lata Gomez Da Costa 120 Gr",
+      "marca": "GOMES DA COSTA",
+      "precios": {
+        "COTO CICSA": 4899.0
+      }
+    },
+    {
+      "termino_busqueda": "atun en lata",
+      "categoria": "almacen",
+      "nombre": "Atun en Aceite Desmenuzado Lata Gomez Da Costa 120 Gr",
+      "marca": "GOMES DA COSTA",
+      "precios": {
+        "COTO CICSA": 2129.0
+      }
+    },
+    {
+      "termino_busqueda": "atun en lata",
+      "categoria": "almacen",
+      "nombre": "Atun al Natural Desmenuzado Lata Gomez Da Costa 120 Gr",
+      "marca": "GOMES DA COSTA",
+      "precios": {
+        "COTO CICSA": 2129.0
+      }
+    },
+    {
+      "termino_busqueda": "lentejas",
+      "categoria": "almacen",
+      "nombre": "Lentejas Secas Remojadas Arcor 300 Gr",
+      "marca": "ARCOR",
+      "precios": {
+        "Supermercados DIA": 1760.0,
+        "Disco": 2050.0
+      }
+    },
+    {
+      "termino_busqueda": "lentejas",
+      "categoria": "almacen",
+      "nombre": "Lentejas Sec Rem Vigente 340g ",
+      "marca": "sin marca",
+      "precios": {
+        "Supermercados DIA": 1100.0
+      }
+    },
+    {
+      "termino_busqueda": "lentejas",
+      "categoria": "almacen",
+      "nombre": "Lentejas Secas Remojadas Dia 300 Gr",
+      "marca": "DÍA",
+      "precios": {
+        "Supermercados DIA": 958.0
+      }
+    },
+    {
+      "termino_busqueda": "lentejas",
+      "categoria": "almacen",
+      "nombre": "Lentejas Remojas Dia 340 Gr",
+      "marca": "DÍA",
+      "precios": {
+        "Supermercados DIA": 1060.0
+      }
+    },
+    {
+      "termino_busqueda": "lentejas",
+      "categoria": "almacen",
+      "nombre": "Lentejas Secas Remojadas sin Sal Inalpa 300 Gr",
+      "marca": "INALPA",
+      "precios": {
+        "COTO CICSA": 1229.0
+      }
+    },
+    {
+      "termino_busqueda": "arvejas en lata",
+      "categoria": "almacen",
+      "nombre": "Arvejas en Lata Ciudad Del Lago 300 Gr",
+      "marca": "CIUDAD DEL LAGO",
+      "precios": {
+        "COTO CICSA": 849.0
+      }
+    },
+    {
+      "termino_busqueda": "arvejas en lata",
+      "categoria": "almacen",
+      "nombre": "Arvejas Extra Finas en Lata Coto 400 Gr",
+      "marca": "COTO",
+      "precios": {
+        "COTO CICSA": 3350.0
+      }
+    },
+    {
+      "termino_busqueda": "pure de tomate",
+      "categoria": "almacen",
+      "nombre": "Pure De Tomate Arcor",
+      "marca": "ARCOR",
+      "precios": {
+        "Supermercados DIA": 1184.0,
+        "Disco": 1220.0,
+        "COTO CICSA": 1220.0
+      }
+    },
+    {
+      "termino_busqueda": "pure de tomate",
+      "categoria": "almacen",
+      "nombre": "Pure de Tomate Tetrabrik Salsati La Campagnola 520 Gr",
+      "marca": "LA CAMPAGNOLA",
+      "precios": {
+        "Supermercados DIA": 1533.0,
+        "Disco": 1700.0,
+        "COTO CICSA": 1533.0
+      }
+    },
+    {
+      "termino_busqueda": "pure de tomate",
+      "categoria": "almacen",
+      "nombre": "Pure de Tomate Canale 520 Gr",
+      "marca": "CANALE",
+      "precios": {
+        "Supermercados DIA": 1180.0
+      }
+    },
+    {
+      "termino_busqueda": "pure de tomate",
+      "categoria": "almacen",
+      "nombre": "Pure de Tomate en Tetrabrik Alco 520 Gr",
+      "marca": "ALCO",
+      "precios": {
+        "Supermercados DIA": 1075.0
+      }
+    },
+    {
+      "termino_busqueda": "pure de tomate",
+      "categoria": "almacen",
+      "nombre": "Pure de Tomate Tetrabrik Inca 520 Gr",
+      "marca": "INCA",
+      "precios": {
+        "COTO CICSA": 1385.59
+      }
+    },
+    {
+      "termino_busqueda": "mayonesa",
+      "categoria": "almacen",
+      "nombre": "Mayonesa Doypack Natura 500 Ml",
+      "marca": "NATURA",
+      "precios": {
+        "Supermercados DIA": 2949.0,
+        "Disco": 3069.0,
+        "COTO CICSA": 3042.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 2280.0,
+          "descripcion": "25% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
+        }
+      }
+    },
+    {
+      "termino_busqueda": "mayonesa",
+      "categoria": "almacen",
+      "nombre": "Mayonesa Doypack Natura 950 Gr",
+      "marca": "NATURA",
+      "precios": {
+        "Supermercados DIA": 5968.0,
+        "Disco": 6200.0,
+        "COTO CICSA": 5963.0
+      }
+    },
+    {
+      "termino_busqueda": "mayonesa",
+      "categoria": "almacen",
+      "nombre": "Mayonesa Regular Doypack Hellmanns 475 Gr",
+      "marca": "HELLMANNS",
+      "precios": {
+        "Supermercados DIA": 2909.0,
+        "Disco": 2999.0,
+        "COTO CICSA": 2999.0
+      }
+    },
+    {
+      "termino_busqueda": "mayonesa",
+      "categoria": "almacen",
+      "nombre": "Mayonesa Doypack Natura 237 Gr",
+      "marca": "NATURA",
+      "precios": {
+        "Supermercados DIA": 1550.0,
+        "Disco": 1600.0,
+        "COTO CICSA": 1551.0
+      }
+    },
+    {
+      "termino_busqueda": "mayonesa",
+      "categoria": "almacen",
+      "nombre": "Mayonesa Clasica Doypack Hellmanns 237 Gr",
+      "marca": "HELLMANNS",
+      "precios": {
+        "Supermercados DIA": 1678.0,
+        "Disco": 1750.0,
+        "COTO CICSA": 1678.0
+      }
+    },
+    {
+      "termino_busqueda": "mostaza",
+      "categoria": "almacen",
+      "nombre": "Mostaza Danica 220 Gr",
+      "marca": "DÁNICA",
+      "precios": {
+        "Supermercados DIA": 1020.0,
+        "Disco": 1000.0,
+        "COTO CICSA": 1000.0
+      }
+    },
+    {
+      "termino_busqueda": "mostaza",
+      "categoria": "almacen",
+      "nombre": "Mostaza Original Pou Savora 500 Gr",
+      "marca": "SAVORA",
+      "precios": {
+        "Supermercados DIA": 3041.0,
+        "Disco": 3250.0,
+        "COTO CICSA": 3042.0
+      }
+    },
+    {
+      "termino_busqueda": "mostaza",
+      "categoria": "almacen",
+      "nombre": "Mostaza Original Tips Doypack Savora 250 Gr",
+      "marca": "SAVORA",
+      "precios": {
+        "Supermercados DIA": 1727.0,
+        "Disco": 1800.0,
+        "COTO CICSA": 1727.0
+      }
+    },
+    {
+      "termino_busqueda": "mostaza",
+      "categoria": "almacen",
+      "nombre": "Mostaza Doypack Natura 250 Gr",
+      "marca": "NATURA",
+      "precios": {
+        "Supermercados DIA": 1109.0,
+        "Disco": 1150.0,
+        "COTO CICSA": 1115.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 720.85,
+          "descripcion": "35% de descuento. 35% KETCH BARBAC MOS - Vigencia: Desde el 23/09/2026 hasta el 28/09/2026"
+        }
+      }
+    },
+    {
+      "termino_busqueda": "mostaza",
+      "categoria": "almacen",
+      "nombre": "Mostaza Doypack Natura 500 Gr",
+      "marca": "NATURA",
+      "precios": {
+        "Supermercados DIA": 2198.0,
+        "Disco": 2350.0,
+        "COTO CICSA": 2198.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 1428.7,
+          "descripcion": "35% de descuento. 35% KETCH BARBAC MOS - Vigencia: Desde el 23/09/2026 hasta el 28/09/2026"
+        }
+      }
+    },
+    {
+      "termino_busqueda": "dulce de leche",
+      "categoria": "almacen",
+      "nombre": "Dulce de Leche Repostero La Serenisima 400 Gr",
+      "marca": "LA SERENÍSIMA",
+      "precios": {
+        "Supermercados DIA": 4340.0,
+        "Disco": 4500.0,
+        "COTO CICSA": 4345.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 3255.0,
+          "descripcion": "25% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
+        }
+      }
+    },
+    {
+      "termino_busqueda": "dulce de leche",
+      "categoria": "almacen",
+      "nombre": "Dulce de Leche Clasico La Serenisima 400 Gr",
+      "marca": "LA SERENÍSIMA",
+      "precios": {
+        "Supermercados DIA": 3895.0,
+        "Disco": 4150.0,
+        "COTO CICSA": 4015.0
+      }
+    },
+    {
+      "termino_busqueda": "dulce de leche",
+      "categoria": "almacen",
+      "nombre": "Dulce de Leche Estilo Colonial La Serenisima 400 Gr",
+      "marca": "LA SERENÍSIMA",
+      "precios": {
+        "Supermercados DIA": 4800.0,
+        "Disco": 4800.0,
+        "COTO CICSA": 4800.0
+      }
+    },
+    {
+      "termino_busqueda": "dulce de leche",
+      "categoria": "almacen",
+      "nombre": "Dulce de Leche Colonial La Serenisima 1 Kg",
+      "marca": "LA SERENÍSIMA",
+      "precios": {
+        "Supermercados DIA": 10465.0,
+        "Disco": 10800.0,
+        "COTO CICSA": 10469.0
+      }
+    },
+    {
+      "termino_busqueda": "dulce de leche",
+      "categoria": "almacen",
+      "nombre": "Dulce de Leche Vacalin 450 Gr",
+      "marca": "VACALÍN",
+      "precios": {
+        "Supermercados DIA": 6000.0,
+        "COTO CICSA": 6315.0
+      }
+    },
+    {
+      "termino_busqueda": "mermelada",
+      "categoria": "almacen",
+      "nombre": "Mermelada de Frutilla Arcor 454 Gr",
+      "marca": "ARCOR",
+      "precios": {
+        "Supermercados DIA": 4430.0,
+        "Disco": 4650.0,
+        "COTO CICSA": 4426.0
+      }
+    },
+    {
+      "termino_busqueda": "mermelada",
+      "categoria": "almacen",
+      "nombre": "Mermelada Naranja sin TACC Arcor 454 Gr",
+      "marca": "ARCOR",
+      "precios": {
+        "Supermercados DIA": 3340.0,
+        "Disco": 3450.0,
+        "COTO CICSA": 3345.0
+      }
+    },
+    {
+      "termino_busqueda": "mermelada",
+      "categoria": "almacen",
+      "nombre": "Mermelada de Ciruela La Campagnola 454 Gr",
+      "marca": "LA CAMPAGNOLA",
+      "precios": {
+        "Supermercados DIA": 4020.0,
+        "Disco": 4350.0,
+        "COTO CICSA": 4025.0
+      }
+    },
+    {
+      "termino_busqueda": "mermelada",
+      "categoria": "almacen",
+      "nombre": "Mermelada de Durazno Bc La Campagnola 390 Gr",
+      "marca": "LA CAMPAGNOLA",
+      "precios": {
+        "Supermercados DIA": 4160.0,
+        "Disco": 3973.0,
+        "COTO CICSA": 4163.0
+      }
+    },
+    {
+      "termino_busqueda": "mermelada",
+      "categoria": "almacen",
+      "nombre": "Mermelada de Ciruela Arcor 454 Gr",
+      "marca": "ARCOR",
+      "precios": {
+        "Supermercados DIA": 3340.0,
+        "Disco": 3500.0,
+        "COTO CICSA": 3345.0
+      }
+    },
+    {
+      "termino_busqueda": "agua mineral",
+      "categoria": "almacen",
+      "nombre": "Agua Mineral sin Gas Pet Villavicencio 2 Lt",
+      "marca": "VILLAVICENCIO",
+      "precios": {
+        "Supermercados DIA": 2959.0,
+        "Disco": 3050.0,
+        "COTO CICSA": 3050.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 1990.0,
+          "descripcion": "35% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
+        }
+      }
+    },
+    {
+      "termino_busqueda": "agua mineral",
+      "categoria": "almacen",
+      "nombre": "Agua Mineral sin Gas Pet Villavicencio 500 Ml",
+      "marca": "VILLAVICENCIO",
+      "precios": {
+        "Supermercados DIA": 1950.0,
+        "Disco": 2000.0,
+        "COTO CICSA": 1870.0
+      }
+    },
+    {
+      "termino_busqueda": "agua mineral",
+      "categoria": "almacen",
+      "nombre": "Agua Mineral sin Gas Villa del Sur 2.25 Lt",
+      "marca": "VILLA DEL SUR",
+      "precios": {
+        "Supermercados DIA": 2449.0,
+        "Disco": 2650.0,
+        "COTO CICSA": 2450.0
+      }
+    },
+    {
+      "termino_busqueda": "agua mineral",
+      "categoria": "almacen",
+      "nombre": "Agua Mineral sin Gas Eco de Los Andes 1.5 Lt",
+      "marca": "ECO DE LOS ANDES",
+      "precios": {
+        "Supermercados DIA": 2956.0,
+        "Disco": 2950.0,
+        "COTO CICSA": 2815.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 2069.2,
+          "descripcion": "30% de descuento. 30% ECO ANDES 1,5-2L - Vigencia: Desde el 23/09/2026 hasta el 28/09/2026"
+        }
+      }
+    },
+    {
+      "termino_busqueda": "agua mineral",
+      "categoria": "almacen",
+      "nombre": "Agua Mineral sin Gas Villa del Sur 1.65 Lt",
+      "marca": "VILLA DEL SUR",
+      "precios": {
+        "Supermercados DIA": 2400.0,
+        "Disco": 2300.0,
+        "COTO CICSA": 2130.0
+      }
+    },
+    {
+      "termino_busqueda": "gaseosa cola",
+      "categoria": "almacen",
+      "nombre": "Gaseosa Cola sin Azucar Coca Cola 1.25 Lt",
+      "marca": "COCA COLA",
+      "precios": {
+        "Supermercados DIA": 3290.0
+      }
+    },
+    {
+      "termino_busqueda": "gaseosa cola",
+      "categoria": "almacen",
+      "nombre": "Gaseosa Cola Classic Cunnington 2.25 Lt",
+      "marca": "CUNNINGTON",
+      "precios": {
+        "Supermercados DIA": 2749.0,
+        "Disco": 2950.0,
+        "COTO CICSA": 2750.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 2061.75,
+          "descripcion": "25% de descuento. 25% CUNNINGTON 1,5-3 - Vigencia: Desde el 23/09/2026 hasta el 28/09/2026"
+        }
+      }
+    },
+    {
+      "termino_busqueda": "gaseosa cola",
+      "categoria": "almacen",
+      "nombre": "Gaseosa Cola Cero Azucar Pet, Pepsi Black, 500 Cm3",
+      "marca": "PEPSI BLACK",
+      "precios": {
+        "Supermercados DIA": 2100.0,
+        "Disco": 2100.0,
+        "COTO CICSA": 1900.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 1575.0,
+          "descripcion": "25% de descuento. 2DO AL 50% LINEA PEP - Vigencia: Desde el 23/09/2026 hasta el 28/09/2026"
+        }
+      }
+    },
+    {
+      "termino_busqueda": "gaseosa cola",
+      "categoria": "almacen",
+      "nombre": "Gaseosa Cola Cunnington 1.5Lt",
+      "marca": "CUNNINGTON",
+      "precios": {
+        "Supermercados DIA": 2150.0,
+        "Disco": 2400.0,
+        "COTO CICSA": 2185.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 1612.5,
+          "descripcion": "25% de descuento. 25% CUNNINGTON 1,5-3 - Vigencia: Desde el 23/09/2026 hasta el 28/09/2026"
+        }
+      }
+    },
+    {
+      "termino_busqueda": "gaseosa cola",
+      "categoria": "almacen",
+      "nombre": "Gaseosa Cola Suave Cunnington 1.5 Lt",
+      "marca": "CUNNINGTON",
+      "precios": {
+        "Supermercados DIA": 2150.0,
+        "Disco": 2400.0,
+        "COTO CICSA": 2185.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 1612.5,
+          "descripcion": "25% de descuento. 25% CUNNINGTON 1,5-3 - Vigencia: Desde el 23/09/2026 hasta el 28/09/2026"
+        }
+      }
+    },
+    {
+      "termino_busqueda": "cerveza",
+      "categoria": "almacen",
+      "nombre": "Cerveza Blanca Genuine Draft Lata Miller 473 Ml",
+      "marca": "MILLER",
+      "precios": {
+        "Supermercados DIA": 3485.0,
+        "Disco": 3600.0,
+        "COTO CICSA": 3485.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 2600.0,
+          "descripcion": "25% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
+        }
+      }
+    },
+    {
+      "termino_busqueda": "cerveza",
+      "categoria": "almacen",
+      "nombre": "Cerveza Lager",
+      "marca": "AMSTE",
+      "precios": {
+        "Supermercados DIA": 2720.0,
+        "Disco": 2850.0,
+        "COTO CICSA": 2725.0
+      }
+    },
+    {
+      "termino_busqueda": "cerveza",
+      "categoria": "almacen",
+      "nombre": "Cerveza Blanca Lager Lata Amstel 710 Cc",
+      "marca": "AMSTEL",
+      "precios": {
+        "Supermercados DIA": 3920.0,
+        "Disco": 4050.0,
+        "COTO CICSA": 3925.0
+      }
+    },
+    {
+      "termino_busqueda": "cerveza",
+      "categoria": "almacen",
+      "nombre": "Cerveza Negra Imperial Stout 473 Cc",
+      "marca": "IMPERIAL",
+      "precios": {
+        "Supermercados DIA": 3295.0,
+        "Disco": 3450.0,
+        "COTO CICSA": 3295.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 2196.67,
+          "descripcion": "33% de descuento. 3X2 CERV SELECCIONAD - Vigencia: Desde el 23/09/2026 hasta el 28/09/2026"
+        }
+      }
+    },
+    {
+      "termino_busqueda": "cerveza",
+      "categoria": "almacen",
+      "nombre": "Cerveza Rubia en Lata Schneider 473 Cc",
+      "marca": "SCHNEIDER",
+      "precios": {
+        "Supermercados DIA": 2532.0,
+        "Disco": 2750.0,
+        "COTO CICSA": 2615.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 1550.0,
+          "descripcion": "41% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
+        }
+      }
+    },
+    {
+      "termino_busqueda": "vino tinto",
+      "categoria": "almacen",
+      "nombre": "Vino Tinto Cabernet Sauvignon Portillo 750 Ml",
+      "marca": "PORTILLO ",
+      "precios": {
+        "Supermercados DIA": 6990.0,
+        "Disco": 7000.0,
+        "COTO CICSA": 6990.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 5990.0,
+          "descripcion": "14% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
+        }
+      }
+    },
+    {
+      "termino_busqueda": "vino tinto",
+      "categoria": "almacen",
+      "nombre": "Vino Tinto Malbec Salentein Numina 750 Ml",
+      "marca": "SALENTEIN",
+      "precios": {
+        "Supermercados DIA": 21900.0,
+        "Disco": 24400.0,
+        "COTO CICSA": 21900.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 17590.0,
+          "descripcion": "20% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
+        }
+      }
+    },
+    {
+      "termino_busqueda": "vino tinto",
+      "categoria": "almacen",
+      "nombre": "Vino Tinto Tradicional Brick Termidor 1 Lt",
+      "marca": "TERMIDOR",
+      "precios": {
+        "Supermercados DIA": 2190.0,
+        "Disco": 2350.0,
+        "COTO CICSA": 2257.0
+      }
+    },
+    {
+      "termino_busqueda": "vino tinto",
+      "categoria": "almacen",
+      "nombre": "Vino Tinto Malbec Portillo 750 Ml",
+      "marca": "PORTILLO",
+      "precios": {
+        "Supermercados DIA": 6990.0,
+        "Disco": 7000.0,
+        "COTO CICSA": 6990.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 5990.0,
+          "descripcion": "14% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
+        }
+      }
+    },
+    {
+      "termino_busqueda": "vino tinto",
+      "categoria": "almacen",
+      "nombre": "Vino Tinto Malbec Fond de Cave 750 Cc",
+      "marca": "FOND DE CAVE",
+      "precios": {
+        "Supermercados DIA": 10905.0,
+        "Disco": 11550.0,
+        "COTO CICSA": 10906.0
+      }
+    },
+    {
+      "termino_busqueda": "jugo en polvo",
+      "categoria": "almacen",
+      "nombre": "Jugo en Polvo Sabor Manzana Deliciosa Clight 7 Gr",
+      "marca": "CLIGHT",
+      "precios": {
+        "Supermercados DIA": 563.0,
+        "Disco": 579.0,
+        "COTO CICSA": 580.0
+      }
+    },
+    {
+      "termino_busqueda": "jugo en polvo",
+      "categoria": "almacen",
+      "nombre": "Jugo en Polvo Sabor Naranja Tang 15 Gr",
+      "marca": "TANG",
+      "precios": {
+        "Supermercados DIA": 550.0,
+        "Disco": 550.0,
+        "COTO CICSA": 550.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 275.0,
+          "descripcion": "50% de descuento. 2X1 TANG - Vigencia: Desde el 23/09/2026 hasta el 28/09/2026"
+        }
+      }
+    },
+    {
+      "termino_busqueda": "jugo en polvo",
+      "categoria": "almacen",
+      "nombre": "Jugo en Polvo Sabor Naranja Clight 8 Gr",
+      "marca": "CLIGHT",
+      "precios": {
+        "Supermercados DIA": 580.0,
+        "Disco": 579.0,
+        "COTO CICSA": 580.0
+      }
+    },
+    {
+      "termino_busqueda": "jugo en polvo",
+      "categoria": "almacen",
+      "nombre": "jugo en Polvo Sabor Naranja Dulce Tang 18 Gr",
+      "marca": "TANG",
+      "precios": {
+        "Supermercados DIA": 550.0,
+        "Disco": 550.0,
+        "COTO CICSA": 550.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 275.0,
+          "descripcion": "50% de descuento. 2X1 TANG - Vigencia: Desde el 23/09/2026 hasta el 28/09/2026"
+        }
+      }
+    },
+    {
+      "termino_busqueda": "jugo en polvo",
+      "categoria": "almacen",
+      "nombre": "Jugo en Polvo Sabor Manzana Tang 15 Gr",
+      "marca": "TANG",
+      "precios": {
+        "Supermercados DIA": 550.0,
+        "Disco": 550.0,
+        "COTO CICSA": 550.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 275.0,
+          "descripcion": "50% de descuento. 2X1 TANG - Vigencia: Desde el 23/09/2026 hasta el 28/09/2026"
+        }
+      }
+    },
+    {
+      "termino_busqueda": "detergente",
+      "categoria": "almacen",
+      "nombre": "Detergente Liquido Bioactive Lima Cif 300 Ml",
+      "marca": "CIF",
+      "precios": {
+        "SIMPLICITY": 2762.5,
+        "Supermercados DIA": 2700.0,
+        "Disco": 2900.0,
+        "COTO CICSA": 2710.99,
+        "FARMACITY": 2762.5
+      }
+    },
+    {
+      "termino_busqueda": "detergente",
+      "categoria": "almacen",
+      "nombre": "Detergente Liquido Bioactive Limon Cif 300 Ml",
+      "marca": "CIF",
+      "precios": {
+        "SIMPLICITY": 2762.5,
+        "Supermercados DIA": 2700.0,
+        "Disco": 2900.0,
+        "COTO CICSA": 2710.99
+      }
+    },
+    {
+      "termino_busqueda": "detergente",
+      "categoria": "almacen",
+      "nombre": "Detergente Liquido Bioactive Lima Doypack Cif 450 Ml",
+      "marca": "CIF",
+      "precios": {
+        "Supermercados DIA": 3850.0,
+        "Disco": 4000.0,
+        "COTO CICSA": 3864.99
+      }
+    },
+    {
+      "termino_busqueda": "detergente",
+      "categoria": "almacen",
+      "nombre": "Detergente Liquido Ultra Limon Ala 500 Cc",
+      "marca": "ALA",
+      "precios": {
+        "Supermercados DIA": 3720.0,
+        "Disco": 3850.0,
+        "COTO CICSA": 3730.99
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 2790.0,
+          "descripcion": "25% de descuento. 25% LAVAV ALA - Vigencia: Desde el 23/09/2026 hasta el 28/09/2026"
+        }
+      }
+    },
+    {
+      "termino_busqueda": "detergente",
+      "categoria": "almacen",
+      "nombre": "Detergente Liquido Bioactive Lima Cif 500 Ml",
+      "marca": "CIF",
+      "precios": {
+        "Supermercados DIA": 4390.0,
+        "Disco": 4550.0,
+        "COTO CICSA": 4390.99
+      }
+    },
+    {
+      "termino_busqueda": "lavandina",
+      "categoria": "almacen",
+      "nombre": "Lavandina en Gel Original Ayudin 700 Ml",
+      "marca": "AYUDÍN",
+      "precios": {
+        "SIMPLICITY": 4159.5,
+        "Supermercados DIA": 3590.0,
+        "Disco": 3800.0,
+        "COTO CICSA": 3558.99
+      }
+    },
+    {
+      "termino_busqueda": "lavandina",
+      "categoria": "almacen",
+      "nombre": "Lavandina en Gel Lavanda Ayudin 700 Ml",
+      "marca": "AYUDÍN",
+      "precios": {
+        "Supermercados DIA": 3590.0,
+        "Disco": 3800.0,
+        "SIMPLICITY": 4159.5,
+        "COTO CICSA": 3558.99,
+        "FARMACITY": 4159.5
+      }
+    },
+    {
+      "termino_busqueda": "lavandina",
+      "categoria": "almacen",
+      "nombre": "Lavandina Lavanda Triple Poder Ayudin 2 Lt",
+      "marca": "AYUDÍN",
+      "precios": {
+        "Supermercados DIA": 3640.0,
+        "Disco": 3900.0,
+        "COTO CICSA": 3606.99
+      }
+    },
+    {
+      "termino_busqueda": "lavandina",
+      "categoria": "almacen",
+      "nombre": "Lavandina Concentrada Ayudin 1 Lt",
+      "marca": "AYUDÍN",
+      "precios": {
+        "Supermercados DIA": 1279.0,
+        "Disco": 1279.0,
+        "COTO CICSA": 1453.99
+      }
+    },
+    {
+      "termino_busqueda": "lavandina",
+      "categoria": "almacen",
+      "nombre": "Lavandina en Gel Citrica Ayudin 700 Ml",
+      "marca": "AYUDÍN",
+      "precios": {
+        "Supermercados DIA": 3590.0,
+        "Disco": 3800.0,
+        "COTO CICSA": 3558.99
+      }
+    },
+    {
+      "termino_busqueda": "jabon en polvo",
+      "categoria": "almacen",
+      "nombre": "Jabon en Polvo Bio Enzimas Skip 600 Gr",
+      "marca": "SKIP",
+      "precios": {
+        "Supermercados DIA": 4340.0,
+        "Disco": 4650.0,
+        "COTO CICSA": 4346.99
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 2821.0,
+          "descripcion": "35% de descuento. 35% JAB SKIP - Vigencia: Desde el 23/09/2026 hasta el 28/09/2026"
+        }
+      }
+    },
+    {
+      "termino_busqueda": "jabon en polvo",
+      "categoria": "almacen",
+      "nombre": "Jabon en Polvo Eco Lavado Ala 3 Kg",
+      "marca": "ALA",
+      "precios": {
+        "Supermercados DIA": 13490.0,
+        "Disco": 14650.0,
+        "COTO CICSA": 13555.99
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 8768.5,
+          "descripcion": "35% de descuento. 35% ALA ROPA - Vigencia: Desde el 23/09/2026 hasta el 28/09/2026"
+        }
+      }
+    },
+    {
+      "termino_busqueda": "jabon en polvo",
+      "categoria": "almacen",
+      "nombre": "Jabon en Polvo Matic Mañana de Sol Ala 800 Gr",
+      "marca": "ALA",
+      "precios": {
+        "Supermercados DIA": 3850.0,
+        "COTO CICSA": 3873.99
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 2502.5,
+          "descripcion": "35% de descuento. 35% ALA ROPA - Vigencia: Desde el 23/09/2026 hasta el 28/09/2026"
+        }
+      }
+    },
+    {
+      "termino_busqueda": "jabon en polvo",
+      "categoria": "almacen",
+      "nombre": "Jabon en Polvo Lavado a Mano Ala 800 Gr",
+      "marca": "ALA",
+      "precios": {
+        "Supermercados DIA": 3890.0,
+        "COTO CICSA": 3906.99
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 2528.5,
+          "descripcion": "35% de descuento. 35% ALA ROPA - Vigencia: Desde el 23/09/2026 hasta el 28/09/2026"
+        }
+      }
+    },
+    {
+      "termino_busqueda": "jabon en polvo",
+      "categoria": "almacen",
+      "nombre": "Jabon en Polvo Matic Zorro Plus 800 Gr",
+      "marca": "ZORRO",
+      "precios": {
+        "Disco": 3250.0,
+        "COTO CICSA": 3039.99
+      }
+    },
+    {
+      "termino_busqueda": "suavizante para ropa",
+      "categoria": "almacen",
+      "nombre": "Suavizante para Ropa Concentrado Cuidado Intesivo Comfor 500 Ml",
+      "marca": "COMFORT",
+      "precios": {
+        "SIMPLICITY": 9235.5,
+        "Supermercados DIA": 8990.0,
+        "Disco": 9350.0,
+        "COTO CICSA": 9062.99
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 5843.5,
+          "descripcion": "35% de descuento. 35% COMFORT - Vigencia: Desde el 23/09/2026 hasta el 28/09/2026"
+        }
+      }
+    },
+    {
+      "termino_busqueda": "suavizante para ropa",
+      "categoria": "almacen",
+      "nombre": "Suavizante para Ropa Clasuci Doypack Comfort 900 Ml",
+      "marca": "COMFORT",
+      "precios": {
+        "Supermercados DIA": 4590.0,
+        "Disco": 4950.0,
+        "COTO CICSA": 4603.99
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 2983.5,
+          "descripcion": "35% de descuento. 35% COMFORT - Vigencia: Desde el 23/09/2026 hasta el 28/09/2026"
+        }
+      }
+    },
+    {
+      "termino_busqueda": "suavizante para ropa",
+      "categoria": "almacen",
+      "nombre": "Suavizante para Ropa ConcentradoFiber Protect Doypack Comfort 1 Lt",
+      "marca": "COMFORT",
+      "precios": {
+        "Supermercados DIA": 13920.0,
+        "Disco": 15050.0,
+        "COTO CICSA": 13942.99
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 9048.0,
+          "descripcion": "35% de descuento. 35% COMFORT - Vigencia: Desde el 23/09/2026 hasta el 28/09/2026"
+        }
+      }
+    },
+    {
+      "termino_busqueda": "suavizante para ropa",
+      "categoria": "almacen",
+      "nombre": "Suavizante para Ropa Concentrado Fiber Protect Botella Comfort 500 Ml",
+      "marca": "COMFORT",
+      "precios": {
+        "Supermercados DIA": 8990.0,
+        "Disco": 9350.0,
+        "COTO CICSA": 9062.99
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 5843.5,
+          "descripcion": "35% de descuento. 35% COMFORT - Vigencia: Desde el 23/09/2026 hasta el 28/09/2026"
+        }
+      }
+    },
+    {
+      "termino_busqueda": "suavizante para ropa",
+      "categoria": "almacen",
+      "nombre": "Suavizante para Ropa Premium Querubin 900 Cc",
+      "marca": "QUERUBÍN",
+      "precios": {
+        "Supermercados DIA": 4100.0,
+        "COTO CICSA": 4099.99
+      }
+    },
+    {
+      "termino_busqueda": "papel higienico",
+      "categoria": "almacen",
+      "nombre": "Papel Higienico Ultra Suave Doble Hoja Elite 4 Un",
+      "marca": "ELITE",
+      "precios": {
+        "Supermercados DIA": 5615.0,
+        "Disco": 4607.0,
+        "COTO CICSA": 5617.99
+      }
+    },
+    {
+      "termino_busqueda": "papel higienico",
+      "categoria": "almacen",
+      "nombre": "Papel Higienico Fresh Hoja Simple con Aloe Vera Higienol 4 Un 30 Mt",
+      "marca": "HIGIENOL",
+      "precios": {
+        "Supermercados DIA": 2501.0,
+        "Disco": 2750.0,
+        "COTO CICSA": 2577.99
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 1965.0,
+          "descripcion": "24% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
+        }
+      }
+    },
+    {
+      "termino_busqueda": "papel higienico",
+      "categoria": "almacen",
+      "nombre": "Papel Higienico Hoja Simple Max Higienol 4 Un 100 Mt",
+      "marca": "HIGIENOL",
+      "precios": {
+        "Supermercados DIA": 7680.0,
+        "Disco": 8250.0,
+        "COTO CICSA": 7679.99
+      }
+    },
+    {
+      "termino_busqueda": "papel higienico",
+      "categoria": "almacen",
+      "nombre": "Papel Higienico Hoja Simple Max Higienol 4 Un 80 Mt",
+      "marca": "HIGIENOL",
+      "precios": {
+        "Supermercados DIA": 6450.0,
+        "Disco": 6800.0,
+        "COTO CICSA": 6754.99
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 5095.0,
+          "descripcion": "23% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
+        }
+      }
+    },
+    {
+      "termino_busqueda": "papel higienico",
+      "categoria": "almacen",
+      "nombre": "Papel Higienico Hoja Simple con Algodon Elite 6 Un 30 Mt",
+      "marca": "ELITE",
+      "precios": {
+        "Supermercados DIA": 4700.0,
+        "COTO CICSA": 4609.99
+      }
+    },
+    {
+      "termino_busqueda": "servilletas",
+      "categoria": "almacen",
+      "nombre": "Servilletas Tissue Dia 70 Un",
+      "marca": "DÍA",
+      "precios": {
+        "Supermercados DIA": 1700.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 1020.0,
+          "descripcion": "40% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
+        }
+      }
+    },
+    {
+      "termino_busqueda": "servilletas",
+      "categoria": "almacen",
+      "nombre": "Servilletas Farmacity X 70 Unidades",
+      "marca": "FARMACITY",
+      "precios": {
+        "SIMPLICITY": 2220.0,
+        "FARMACITY": 2220.0
+      }
+    },
+    {
+      "termino_busqueda": "servilletas",
+      "categoria": "almacen",
+      "nombre": "Servilletas Blancas Ultra Suave 30x30 Cm Elite 100 Un",
+      "marca": "ELITE",
+      "precios": {
+        "COTO CICSA": 2968.99
+      }
+    },
+    {
+      "termino_busqueda": "servilletas",
+      "categoria": "almacen",
+      "nombre": "Servilletas Blancas Felpita 140 Un",
+      "marca": "FELPITA",
+      "precios": {
+        "COTO CICSA": 3990.99
+      }
+    },
+    {
+      "termino_busqueda": "servilletas",
+      "categoria": "almacen",
+      "nombre": "Servilletas Blancas Felpita 70 Un",
+      "marca": "FELPITA",
+      "precios": {
+        "COTO CICSA": 2199.99
+      }
+    },
+    {
+      "termino_busqueda": "shampoo",
+      "categoria": "almacen",
+      "nombre": "Shampoo Hialuronico y Vitamina A Sedal 340 Ml",
+      "marca": "SEDAL",
+      "precios": {
+        "SIMPLICITY": 6875.0,
+        "Supermercados DIA": 6380.0,
+        "Disco": 6900.0,
+        "COTO CICSA": 6385.99,
+        "FARMACITY": 6875.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 4147.0,
+          "descripcion": "35% de descuento. 35% SEDAL - Vigencia: Desde el 23/09/2026 hasta el 28/09/2026"
+        }
+      }
+    },
+    {
+      "termino_busqueda": "shampoo",
+      "categoria": "almacen",
+      "nombre": "Shampoo Crema Balance Sedal 340 Ml",
+      "marca": "SEDAL",
+      "precios": {
+        "SIMPLICITY": 6870.5,
+        "Supermercados DIA": 6380.0,
+        "Disco": 6900.0,
+        "COTO CICSA": 6383.99,
+        "FARMACITY": 6870.5
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 4147.0,
+          "descripcion": "35% de descuento. 35% SEDAL - Vigencia: Desde el 23/09/2026 hasta el 28/09/2026"
+        }
+      }
+    },
+    {
+      "termino_busqueda": "shampoo",
+      "categoria": "almacen",
+      "nombre": "Shampoo Oleo Nutricion Dove 400 Ml",
+      "marca": "DOVE",
+      "precios": {
+        "SIMPLICITY": 11298.0,
+        "Supermercados DIA": 8190.0,
+        "Disco": 11118.0,
+        "COTO CICSA": 11078.99,
+        "FARMACITY": 11298.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 6400.0,
+          "descripcion": "22% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
+        }
+      }
+    },
+    {
+      "termino_busqueda": "shampoo",
+      "categoria": "almacen",
+      "nombre": "Shampoo Ceramidas Sedal 340 Ml",
+      "marca": "SEDAL",
+      "precios": {
+        "SIMPLICITY": 6870.5,
+        "Supermercados DIA": 5855.0,
+        "Disco": 6900.0,
+        "COTO CICSA": 6383.99,
+        "FARMACITY": 6870.5
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 3805.75,
+          "descripcion": "35% de descuento. 35% SEDAL - Vigencia: Desde el 23/09/2026 hasta el 28/09/2026"
+        }
+      }
+    },
+    {
+      "termino_busqueda": "shampoo",
+      "categoria": "almacen",
+      "nombre": "Shampoo Reconstruccion Completa Dove 400 Ml",
+      "marca": "DOVE",
+      "precios": {
+        "SIMPLICITY": 11298.0,
+        "Supermercados DIA": 7496.0,
+        "Disco": 11118.0,
+        "COTO CICSA": 11078.99,
+        "FARMACITY": 11298.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 6400.0,
+          "descripcion": "19% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
+        }
+      }
+    },
+    {
+      "termino_busqueda": "jabon de tocador",
+      "categoria": "almacen",
+      "nombre": "Jabon de Tocador Naturals Karite Hidratacion Intensiva Palmolive 3 Un 90 Gr",
+      "marca": "PALMOLIVE",
+      "precios": {
+        "Supermercados DIA": 3740.0,
+        "Disco": 3950.0,
+        "COTO CICSA": 3740.99
+      }
+    },
+    {
+      "termino_busqueda": "jabon de tocador",
+      "categoria": "almacen",
+      "nombre": "Jabon de Tocador Antibacterial Fresh Rexona 3 Un 90 Gr",
+      "marca": "REXONA",
+      "precios": {
+        "Supermercados DIA": 4780.0,
+        "COTO CICSA": 4780.99
+      }
+    },
+    {
+      "termino_busqueda": "jabon de tocador",
+      "categoria": "almacen",
+      "nombre": "Jabon de Tocador Nutrimilk Palmolive 85 Gr",
+      "marca": "PALMOLIVE",
+      "precios": {
+        "Supermercados DIA": 1875.0,
+        "COTO CICSA": 1875.99
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 1400.0,
+          "descripcion": "25% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
+        }
+      }
+    },
+    {
+      "termino_busqueda": "jabon de tocador",
+      "categoria": "almacen",
+      "nombre": "Jabon de Tocador Toque Nutritivo Palmolive 3 Un 270 Gr",
+      "marca": "PALMOLIVE",
+      "precios": {
+        "Supermercados DIA": 3740.0,
+        "COTO CICSA": 3740.99
+      }
+    },
+    {
+      "termino_busqueda": "jabon de tocador",
+      "categoria": "almacen",
+      "nombre": "Jabon de Tocador Frescura Plusbelle 3 Un 125 Gr",
+      "marca": "PLUSBELLE",
+      "precios": {
+        "Supermercados DIA": 4300.0,
+        "COTO CICSA": 3939.99
+      }
+    },
+    {
+      "termino_busqueda": "pasta dental",
+      "categoria": "almacen",
+      "nombre": "Pasta Dental Extra Blancura Oral B 70 Gr",
+      "marca": "ORAL B",
+      "precios": {
+        "Supermercados DIA": 3860.0,
+        "COTO CICSA": 3866.0
+      }
+    },
+    {
+      "termino_busqueda": "pasta dental",
+      "categoria": "almacen",
+      "nombre": "Pasta Dental Sensodyne Limpieza profunda 90 Gr",
+      "marca": "SENSODYNE",
+      "precios": {
+        "Supermercados DIA": 7030.0,
+        "COTO CICSA": 7034.99
+      }
+    },
+    {
+      "termino_busqueda": "pasta dental",
+      "categoria": "almacen",
+      "nombre": "Pasta Dental Colgate Total Interdental 90 G",
+      "marca": "Colgate",
+      "precios": {
+        "Supermercados DIA": 6610.0
+      }
+    },
+    {
+      "termino_busqueda": "pasta dental",
+      "categoria": "almacen",
+      "nombre": "Pasta Dental Meraki",
+      "marca": "MERAK",
+      "precios": {
+        "Supermercados DIA": 7400.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 6300.0,
+          "descripcion": "15% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
+        }
+      }
+    },
+    {
+      "termino_busqueda": "desodorante",
+      "categoria": "almacen",
+      "nombre": "Desodorante Aerosol Men Rexona 150 Ml",
+      "marca": "REXONA",
+      "precios": {
+        "SIMPLICITY": 5219.5,
+        "Supermercados DIA": 5120.0,
+        "Disco": 5131.0,
+        "COTO CICSA": 5121.99,
+        "FARMACITY": 5219.5
+      }
+    },
+    {
+      "termino_busqueda": "desodorante",
+      "categoria": "almacen",
+      "nombre": "Desodorante Antitranspirante en Aerosol Nivea Protection Care 150 Cc",
+      "marca": "NIVEA",
+      "precios": {
+        "SIMPLICITY": 4934.0,
+        "Supermercados DIA": 3990.0,
+        "Disco": 5150.0,
+        "COTO CICSA": 4912.99,
+        "FARMACITY": 4934.0
+      },
+      "ofertas": {
+        "Supermercados DIA": {
+          "precio": 3929.0,
+          "descripcion": "2% de descuento. Precio Promocional Exclusivo DIA en Sucursales Indicadas Hasta Agotar Stock o Finalice Vigencia."
+        }
+      }
+    },
+    {
+      "termino_busqueda": "desodorante",
+      "categoria": "almacen",
+      "nombre": "Desodorante Aerosol Marine Axe 150 Cc",
+      "marca": "AXE",
+      "precios": {
+        "SIMPLICITY": 5023.5,
+        "Supermercados DIA": 4930.0,
+        "Disco": 5400.0,
+        "COTO CICSA": 4929.99,
+        "FARMACITY": 5023.5
+      }
+    },
+    {
+      "termino_busqueda": "desodorante",
+      "categoria": "almacen",
+      "nombre": "Desodorante Aerosol Women Active Emotion Rexona 250 Ml",
+      "marca": "REXONA",
+      "precios": {
+        "SIMPLICITY": 6959.0,
+        "Supermercados DIA": 6830.0,
+        "Disco": 7650.0,
+        "COTO CICSA": 6829.99,
+        "FARMACITY": 6959.0
+      }
+    },
+    {
+      "termino_busqueda": "desodorante",
+      "categoria": "almacen",
+      "nombre": "Desodorante Aerosol Women Nutrivive Rexona 150 Ml",
+      "marca": "REXONA",
+      "precios": {
+        "SIMPLICITY": 5219.5,
+        "Supermercados DIA": 5120.0,
+        "Disco": 5500.0,
+        "COTO CICSA": 5121.99,
+        "FARMACITY": 5219.5
       }
     }
   ]
